@@ -1,0 +1,8 @@
+
+{{ range $.Site.Data.faq.general.faq }}
+<h3> 
+    {{ .question | markdownify | emojify }}
+
+</h3>
+{{ .answer | markdownify | emojify  }}
+{{end}}

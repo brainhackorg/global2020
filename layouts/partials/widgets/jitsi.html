@@ -1,0 +1,114 @@
+<style>
+.jitsi {
+    margin: 0;
+    padding: 0;
+    background:#000;
+    font-size: 1rem;
+    min-height: 90vh;
+  }
+.jitsi span {
+    display:block;
+    font-family: "Quicksand", sans-serif;
+    color:white;
+    font-size:3rem;
+    line-height: 3rem;
+    margin-bottom:2rem;
+  }
+  .jitsi p {
+    font-family: sans-serif;
+    color:white;
+    font-size: 1rem;
+    padding:15px;
+    cursor: pointer;
+  }
+  .jitsi p.selected {
+    background: #444;
+    border-right: 4px solid white;
+  }
+  :root {
+    --nav-width: 300px;
+  }
+
+  #jitsi {
+    display: none;
+    width: calc(100% - var(--nav-width));
+    height: 90vh;
+  }
+
+  #home {
+    display: inline-block;
+    width: calc(100% - var(--nav-width));
+    height: 90vh;
+    position:relative;
+    background: #000;
+  }
+  #content {
+    display: block;
+    padding: 2rem;
+    width: 50%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+  }
+
+  #rooms {
+    float: left;
+    text-align: right;
+    width: var(--nav-width);
+    height: 90vh;
+  }
+
+</style>
+<div class="jitsi" id="rooms">
+  <p id="streamingsesh" class="selected" data-room="Home">Home</p>
+  <p data-room="bhg2020-open-discussion">Open discussion</p>
+  <p data-room="bhg2020-coworking-session">Coworking session</p>
+  <p data-room="bhg2020-quiet-coworking-session">Quiet co-working session</p>
+  <p data-room="bhg2020-project-rooms">Project rooms (could display all projects in which people have linked a jitsi link?)</p>
+  <p data-room="bhg2020-party">Party</p>
+</div>
+<div id="jitsi"></div>
+<div class="jitsi" id="home">
+  <div class="jitsi text-center" id="content">
+    <img width="50%" class="mx-auto" src="/bhg2020/media/bhg19_logo.jpeg"/>
+    <p class="jit">Streaming sessions</p>
+    <p >To join a discussion room, just click on one of the tabs on the left.</p>
+  </div>
+</div>
+
+<script src="https://meet.jit.si/external_api.js"></script>
+
+<script>
+  const domain = 'meet.jit.si';
+  const {offsetWidth: width, offsetHeight: height} = document.querySelector("#home");
+  const options = {
+    roomName: 'bhg2020',
+    width, height,
+    parentNode: document.querySelector('#jitsi'),
+    configOverwrite: {
+      startWithAudioMuted: true
+    }
+  };
+  let api;
+  document.querySelectorAll('p').forEach((el) => {
+    el.addEventListener('click', () => {
+      document.querySelectorAll('p').forEach((el) => el.classList.remove('selected'));
+      el.classList.add('selected');
+      const {room} = el.dataset;
+      options.roomName = room;
+      if(api) {
+        api.dispose();
+      }
+      if(room === "Home") {
+        document.querySelector("#home").style.display='inline-block';
+        document.querySelector("#jitsi").style.display='none';
+      } else {
+        document.querySelector("#home").style.display='none';
+        document.querySelector("#jitsi").style.display='inline-block';
+        api = new JitsiMeetExternalAPI(domain, options);
+      }
+    });
+  });
+</script>
