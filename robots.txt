@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://brainhackorg.github.io/bhg2020/sitemap.xml
