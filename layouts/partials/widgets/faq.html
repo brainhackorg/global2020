@@ -1,0 +1,57 @@
+{{/* FAQ Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $faq := $.Site.Data.faq }}
+
+<div class="row justify-content-center">
+  {{ with $page.Title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+  <div class="col-md-12">
+    {{ . }}
+  </div>
+  {{ end }}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            {{ $.Scratch.Set "counter" 0 }}
+            {{ range $faq.wholefaq }}
+            <h3 class="text-secondary text-center text-md-left"> {{ .section | markdownify | emojify }} </h3>
+            <div id="ohmyaccordion" class="myaccordion">
+                {{ range .questions }}
+            {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}            
+                <div class="card">
+                    <div class="card-header" id="">
+                        <h2 class="my-0">
+                            <button class="d-flex align-items-center btn btn-link collapsed btn-nav-accordion" data-toggle="collapse" data-target="#collapse-{{$.Scratch.Get "counter"}}" aria-expanded="false" aria-controls="collapse-{{$.Scratch.Get "counter"}}">
+                                {{ .question | markdownify }}
+                                <span class="fa-stack fa-sm ml-auto">
+                                    {{/*  <i class="fas fa-circle fa-stack-2x"></i>  */}}
+                                    <i class="fas fa-plus fa-stack-1x ml-auto"></i>
+                                </span>
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapse-{{$.Scratch.Get "counter"}}" class="collapse" aria-labelledby="heading-{{$.Scratch.Get "counter"}}" data-parent="#ohmyaccordion">
+                        <div class="card-body font-italic">
+                            {{ .answer | markdownify }}
+                        </div>
+                    </div>
+                </div>
+{{end}}
+            {{ end }}   
+            {{ range $.Data.faq }}
+            {{ . }}
+            {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
