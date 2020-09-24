@@ -1,6 +1,6 @@
 ---
-name: Project submission template
-about: Fill this tempalte to submit the project
+name: "[WIP] Project submission template"
+about: Fill this template to submit the project
 title: "[Project]"
 labels: project
 assignees: ''

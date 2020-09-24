@@ -5,8 +5,8 @@ labels: website
 assignees: ''
 
 ---
+<!-- Describe in simple words or drawings the issue, don't worry about this template if you don't feel like filling it out, simply state what you want below. -->
 
-<!-- Describe in simple words or drawings the issue -->
 <!-- Add bug or feature or design -->
 * **I'm submitting a ...**
   - [ ] bug report
