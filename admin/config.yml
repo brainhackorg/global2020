@@ -1,11 +1,12 @@
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-  # api_root: https://api.github.com
-  # base_url: https://api.netlify.com
+  name: github
+  repo: brainhackorg/global2020
+  branch: cms # Branch to update (optional; defaults to master)
+  api_root: https://api.github.com
+  base_url: https://api.netlify.com
   identity_url: "https://brainhack.org/global2020/.netlify/identity"
   gateway_url: "https://brainhack.org/global/2020/.netlify/git"
-  cms_label_prefix: netlify-cms/
+  # cms_label_prefix: netlify-cms/
 publish_mode: editorial_workflow # Option to create a branch once new content is created/saved and allow editing before merging the PR
 media_folder: 'static/media/'
 public_folder: 'media'
