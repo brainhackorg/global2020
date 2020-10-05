@@ -15,6 +15,7 @@ wholefaq:
     answer: |
       Any help you would like to offer is more than welcome! You may be part of Brainhack Global by either joining the Brainhack Global team or by organizing a local event for the upcoming year. Each year, the Brainhack Global team announces to collect interests for the volunteering teams via its own Mattermost channel and social accounts. If you would like to help out, please look out for those announcements and contact us.
 
+
   - question: Is there a limit on the number of local events held each year?
     answer: |
       No. We support and encourage as much participation as possible from all around the world to celebrate and disseminate the open science processes and practices.
@@ -66,8 +67,7 @@ wholefaq:
 
       One thing to remember is that regardless of your event’s size, you always need a good supporting team working alongside the main organizers. Because, as you can read from the [How to Guideline](), there are several aspects you have to consider and plan ahead of the event, and each requires a dedicated team of volunteers to work synchronously. 
 
-
-  - question: How can we apply to run a local Brainhack event?
+- question: How can we apply to run a local Brainhack event?
     answer: |
 
       Please fill the [Host a Brainhack Event]() form with as much detail you can provide to the asked questions. Once the Brainhack organizing committee receives your applications we will contact you regarding the confirmation of your event and you will be supplied with the necessary details regarding the organization of your event.
@@ -95,6 +95,7 @@ wholefaq:
 
       Likewise, we won’t be able to oversee the presentation broadcasting at each local Brainhack site individually, but we will provide you with general information on how to set up the necessary infrastructure in our guidelines listed in our [Github repository](https://github.com/brainhackorg/bhg-event-materials)
 
+
   - question: Where can we access the previous tutorials? Could we use those tutorials in our events?
     answer: |
       You can access the list of previous years’ event holders and their websites from [here](http://brainhack.org/). As is the case now, each site had its program and schedule, and some of them made their tutorials publicly available. Those are still accessible through the events’ past websites. Please do not hesitate to check the tutorials and to use the materials by citing the original authors/creators. 
@@ -115,6 +116,7 @@ wholefaq:
       * Attendee registration form;
       * PR materials: Brainhack logo and color scheme;
       * List of open science tools and materials that you can use in your own tutorial and share with your attendees;
+
       * Instructions for broadcasting.
 
       Once you confirm that you will host an event, the Brainhack Global team will give you the support you need (i.e., as much as our volunteer team is able to provide). It is recommended to keep the Brainhack Global team up to date with your plans and preparations to swiftly get the support you need. 
@@ -146,6 +148,7 @@ wholefaq:
 
       In the case of such resolutions are not adequate, the committee must conduct a comprehensive investigation. The committee should approach to the known individuals who are involved with the case personally and in private as first and provide an opportunity to provide any evidence, facts behind the incident. The notes/reports should be taken and shared across the parties to give an opportunity to respond in the accusations/descriptions of the incident. The Code of Conduct committee should set submission deadlines in their sole discretion but taking into account the nature of the conduct concern, timing, and logistics. The Code of Conduct committee should work on making a fair determination and any consequences imposed in as timely a matter as possible accordingly with the rules and laws of the associated organization/institute/country and state.
 
+
 - section: Attendees
   questions:
   - question: Am I eligible to attend a Brainhack Global event?
@@ -162,6 +165,7 @@ wholefaq:
 
   - question: What should I do if I encounter/encountered an action/abuse that violates the Code of Conduct?
     answer: |
+
       First of all, please make sure that you read, understand, and abide by the [Code of Conduct](https://brainhack.org/code-of-conduct.html). Acting accordingly with the rules listed in the Code of Conduct is one of the main responsibilities of every single participant of the event.
 
       Any action that violates the Code of Conduct should be immediately reported by following the procedures defined in the local organization website. Depending on the event location/institute you are registered with the reporting procedures and resolving the violation of the Code of Conduct might differ from each other which defined and protected by the law of that current country/state where your local event is based on. 
@@ -193,7 +197,6 @@ wholefaq:
 
 
       We would recommend you to submit your project as early as possible alongside your registration to the event. This will help the attendees to benefit from the matching algorithm to find and apply to the project and attract more interest from the community. It will also help the local event organizers to arrange the schedule of the project pitches and hack tracks and 
-
 
       Since you won’t have any knowledge about the expertise profile of the other Brainhack attendees until the hackathon starts, it is better to incorporate some flexibility into your project plan and schedule. Because there is always a possibility of getting help from any number of attendees on many different aspects of your project that you didn’t plan ahead. Please do not undermine the contribution that would come from any of the attendees at the event. This is one of the important parts of the event. Be inclusive and open to the contributions. Especially if they come from an early career researcher and he/she is there to learn from you; please do not forget that you were one of them once too and that providing people with an environment to learn and improve themselves is one of the main goals and gains of the event. And again you would never be able to know which contribution an attendee could provide you with. Therefore, it is always better to keep yourself open to different ideas and contributions and to let the brainstorming help you achieve your project’s goals.
 
