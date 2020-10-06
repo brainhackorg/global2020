@@ -15,7 +15,7 @@
 
 [[main]]
   name = "Events"
-  url = "/events"
+  url = "https://brainhack.org/global2020/events"
   weight = 20
   # identifier = "event"
 
@@ -33,12 +33,12 @@
 
 [[main]]
   name = "Projects"
-  url = "/projects"
+  url = "https://brainhack.org/global2020/projects"
   weight = 30
 
 [[main]]
   name = "FAQ"
-  url = "/faq"
+  url = "https://brainhack.org/global2020/faq"
   weight = 40
   # identifier = "faq"
 
@@ -61,12 +61,12 @@
 
 [[main]]
   name = "Contact"
-  url = "/#contact"
+  url = "https://brainhack.org/global2020/#contact"
   weight = 60
 
 [[main]]
   name = "Code of Conduct"
-  url = "/code-of-conduct"
+  url = "https://brainhack.org/global2020/code-of-conduct"
   weight = 70
 
 # Link to a PDF of your resume/CV from the menu.
