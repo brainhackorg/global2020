@@ -134,9 +134,9 @@ Local event organizers are responsible for having a dedicated Code of Conduct Co
 
 In all cases, the local organizers will make every effort to stay in clear communication with anyone who reports a problem, maintaining confidentiality.If the complaint originates from a member of the response team, it will be handled by a different member of the response team. If the complaint is about an event organizer, you can use the procedure described below to ensure that the Brainhack Global Code of Conduct Committee will follow up with the reporter.
 
-{{% alert success %}}
+{{% callout success %}}
 [Given that the Brainhack community is global and rules might differ depending on which country/state the events are held (if it is a physical event but might not be applicable in the case of virtual events), be aware that the reporting procedure may change from local event to local event. The reporting procedure for each local event must be found on their dedicated website. You can make a report either personally or anonymously using the reporting mechanism indicated in the website of the local organization without any concerns about situations of any size and magnitude. The reporting procedure below describes how you can report issues regarding organizers or the Brainhack Global team.]
-{{% /alert %}}
+{{% /callout %}}
 
 
 ### Reporting procedure
