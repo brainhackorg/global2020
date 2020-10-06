@@ -59,4 +59,6 @@ hero_media = "headers/brain.png"
 
 <br>
 
-During the **first 2 weeks of December**, researchers from across the globe and a myriad of disciplines working together on innovative projects related to neuroscience.
+Brainhack Global
+
+**30th November - 13th December**
