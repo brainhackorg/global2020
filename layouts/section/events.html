@@ -2,13 +2,10 @@
 
 {{ partial "page_header.html" . }}
 
-<div class="universal-wrapper">
+<div class="container">
   <div class="row">
     <div class="col-lg-12">
 
-      {{ with .Content }}
-      <div class="article-style">{{ . }}</div>
-      {{ end }}
 
 {{/* MAP Widget */}}
 
@@ -17,8 +14,6 @@
 {{/*  {{ $page := .page }}  */}}
 
 <div class="row justify-content-center">
-
-
     {{ $shops := $.Site.Data.locations }}
     <div class="container">
     <!-- list the stores -->
@@ -58,9 +53,11 @@
         </div>
     </div>
 
-</div>
 
-               
+
+</div>
+{{/*  End of map  */}}
+           
       {{ range .Data.Pages.GroupByDate "2006" }}
       <div class="row" id="talk_list">
         <div class="col-lg-2">
@@ -85,9 +82,13 @@
     </div>
 </div>
 
-</div>
+      {{ with .Content }}
+      <div class="article-style">{{ . }}</div>
+      {{ end }}
 
-<div class="container-fluid">
+</div>
+{{/*  TODO: Embed JITSI iframe + Hackmd?  */}}
+{{/*  <div class="container-fluid">
     <div class="row">
         <div class="col-12">
 
@@ -96,6 +97,6 @@
         </div>
 
     </div>
-</div>
+</div>  */}}
 
 {{- end -}}
