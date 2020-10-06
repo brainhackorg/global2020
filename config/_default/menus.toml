@@ -3,48 +3,65 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
+
+
+
+#  TODO: had to hardcode item menu with # because of the /global2020/, everything is fucked.
 [[main]]
   pre = "<i class='fas fa-brain'></i>"
   name = " Home"
-  url = "#hero"
+  url = "/"
   weight = 10
 
 [[main]]
   name = "Events"
-  url = "#events"
+  url = "/events"
   weight = 20
+  # identifier = "event"
+
+# [[main]]
+#   name = "View 2020 Events"
+#   url = "/events#talk_list"
+#   weight = 20
+#   parent = "event"
+
+# [[main]]
+#   name = "Host an Event"
+#   url = "/events#host-a-local-brainhack"
+#   weight = 21
+#   parent = "event"
 
 [[main]]
   name = "Projects"
-  url = "#projects"
+  url = "/projects"
   weight = 30
 
 [[main]]
   name = "FAQ"
-  # url = "/faq"
+  url = "/faq"
   weight = 40
-  identifier = "faq"
+  # identifier = "faq"
 
-[[main]]
-  name = "General FAQ"
-  url = "/faq#general-questions"
-  weight = 41
-  parent = "faq"
-[[main]]
-  name = "FAQ for attendees"
-  url = "/faq#attendees"
-  weight = 42
-  parent = "faq"
+# [[main]]
+#   name = "General FAQ"
+#   url = "/faq#general-questions"
+#   weight = 41
+#   parent = "faq"
+# [[main]]
+#   name = "FAQ for attendees"
+#   url = "https://brainhack.org/faq/#attendees"
+#   weight = 42
+#   parent = "faq"
 
-[[main]]
-  name = "FAQ for hosts"
-  url = "/faq#hosts"
-  weight = 43
-  parent = "faq"
+# [[main]]
+#   name = "FAQ for hosts"
+#   url = "/faq/#hosts"
+#   weight = 43
+#   parent = "faq"
 
 [[main]]
   name = "Contact"
-  url = "#contact"
+  url = "/#contact"
   weight = 60
 
 [[main]]
