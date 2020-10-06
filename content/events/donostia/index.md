@@ -1,27 +1,27 @@
 ---
 title: BrainHack Donostia
-event: BrainHack Global
-event_url: https://bhdosonia.org
+event: BrainHack Donostia
+event_url: https://brainhack-donostia.github.io/
 
-location: Somehere in the universe
+location: Somewhere on the planet
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
-  postcode: '94305'
-  country: United States
+  street:
+  city:
+  region:
+  postcode:
+  country:
 
 summary: The most amazing BrainHack you'll ever attend.
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+abstract: "Description coming soon"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-11-15T13:00:00Z"
-date_end: "2020-11-18T15:00:00Z"
-all_day: false
+date: "2020-11-09T13:00:00Z"
+date_end: "2020-11-13T15:00:00Z"
+all_day: true
 
-# Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
+# Schedule page publish date (NOT event date).
+publishDate: "2020-10-01T00:00:00Z"
 
 authors: []
 tags: []
@@ -34,21 +34,19 @@ image:
   focal_point: Right
 
 links:
+- icon: globe
+  icon_pack: fas
+  name: Website
+  url: https://brainhack-donostia.github.io/
 - icon: twitter
   icon_pack: fab
   name: Follow
-  url: https://twitter.com/
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: "https://meet.jit.si/bhg2020-donostia"
+  url: https://www.twitter.com/BHDonostia
+- icon: video
+  icon_pack: fas
+  name: Streaming
+  url: https://meet.jit.si/bhg2020-donostia
 
-# Markdown Slides (optional).
-#   Associate this talk with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: 
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -56,17 +54,13 @@ slides:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-- project 1
-- project 2
-- project 3
-- project 4
+- project_84
+
 
 # Enable math on this page?
 math: true
 ---
 
-{{% alert note %}}
-We could display the info here...
+Here's the calendar for this local Brainhack.
 
-Change video button for Streaming? 
-{{% /alert %}}
+<iframe src="https://calendar.google.com/calendar/embed?height=1000&amp;wkst=2&amp;bgcolor=%234a578e&amp;src=YmhnLWRvbm9zdGlhQGJjYmwuZXU&amp;color=%23039BE5&amp;title=Brainhack%20Donostia%202020&amp;mode=AGENDA&amp;showTabs=0&amp;showCalendars=0&amp;showPrint=0&amp;tab=mc&amp;mode=week&amp;dates=20201109/20201115&amp;ctz=America/New_York" style="border:solid 1px #777" scrolling="no" width="100%" height="800" frameborder="0"></iframe>
