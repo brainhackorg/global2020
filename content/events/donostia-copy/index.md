@@ -78,4 +78,4 @@ math: true
 We could display the info here...
 
 Change video button for Streaming? 
-{{% /alert %}}
+{{% alert %}}
