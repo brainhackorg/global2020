@@ -39,7 +39,7 @@
                                 <p class="small mt-1 mb-0 text-muted">{{ range .dates }}{{ dateFormat "Monday, Jan 2, 2006" . }}<br>{{end}}</p>
 
                                 <p class="small mt-1 mb-0">Organized by: {{ delimit .organizers ", " }}</p>
-                                {{ with .website }}<a href="{{.}}">Website - </a>{{end}}{{ if .contact }}<a href="mailto:{{ range .contact | first 1}} {{.}}{{end}}">Contact</a>{{end}} - {{ with .contact }}<a href=#>Projects</a>{{end}}
+                                {{ with .website }}<a href="{{.}}">Website</a>{{end}} - {{ if .contact }}<a href="mailto:{{ range .contact | first 1}} {{.}}{{end}}">Contact</a>{{end}} - {{ with .contact }}<a href=#>Projects</a>{{end}}
                             </div>
                         </div>
                     {{/*  {{ end }}  */}}

@@ -87,7 +87,7 @@
         {{ $is_same_page := false }}
         {{ $hash := findRE "#(.+)" .URL }}
 
-        {{ if $current_page.IsHome | and (or (eq .URL "/") (eq .URL "")) }}
+        {{ if (or (eq .URL "/") (eq .URL "")) }}
           {{ $is_link_in_current_path = true }}
         {{else}}
           {{ if gt (len .URL) 1 }}{{/* Ignore root URL */}}
