@@ -40,10 +40,10 @@ hero_media = "headers/brain.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "/events#host-a-local-brainhack"
-  label = "Host your own local Brainhack"
-  icon_pack = "fas"
-  icon = "fire"
+ # url = "/events#host-a-local-brainhack"
+ # label = "Host your own local Brainhack"
+# icon_pack = "fas"
+ # icon = "fire"
 #   
 # [cta_alt]
 #   url = "#projects"
