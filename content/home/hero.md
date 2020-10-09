@@ -55,7 +55,3 @@ title = ""
 +++
 
 <!-- <span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span> -->
-
-<h1><b>Brainhack Global 2020 <br> is happening!</b></h1>
-<h2><b>When?</b></h2>
-<p>30th November - 13th December</p>
