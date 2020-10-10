@@ -24,7 +24,7 @@
         <div class="col-12">
             {{ $.Scratch.Set "counter" 0 }}
             {{ range $faq.wholefaq }}
-            <h3 class="text-secondary text-center text-md-left"> {{ .section | markdownify | emojify }} </h3>
+            <h3 id="{{.section | urlize }}" class="text-secondary text-center text-md-left"> {{ .section | markdownify | emojify }} </h3>
             <div id="ohmyaccordion" class="myaccordion">
                 {{ range .questions }}
             {{ $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) }}            
@@ -48,9 +48,6 @@
                 </div>
 {{end}}
             {{ end }}   
-            {{ range $.Data.faq }}
-            {{ . }}
-            {{ end }}
             </div>
         </div>
     </div>

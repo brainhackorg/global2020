@@ -1,7 +1,7 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://sourcethemes.com/academic/docs/page-builder/
-widget: pages
+widget: "pages"
 
 # Activate this widget? true/false
 active: true
@@ -10,9 +10,9 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 20
 
-title: Recent & Upcoming Events
+title:
 subtitle:
 
 content:
@@ -41,4 +41,15 @@ design:
   #   3 = Card
   #   4 = Citation (publication only)
   view: 2
+  clip_path: "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)"
+  background:
+    image: laptop_world.svg
+    image_darken: 0.0
+    image_parallax: true
+    image_position: center
+    image_size: contain
+    # text_color_light: true
+    color: "#e3eeed"
 ---
+
+<h1><b>Local brainhacks</b></h1>

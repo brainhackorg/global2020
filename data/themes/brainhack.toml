@@ -1,0 +1,19 @@
+# Theme metadata
+name = "BrainHack"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#477773"
+
+# Menu
+menu_primary = "#477773"
+menu_text = "#fff"
+menu_text_active = "#2a4644"
+menu_title = "#fff"
+
+# Home sections
+background = "#e3eeed"
+home_section_odd = "#e3eeed"
+home_section_even = "#e3eeed"

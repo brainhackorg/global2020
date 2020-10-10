@@ -1,0 +1,104 @@
+{{ $item := .item }}
+{{ $widget := .widget }}
+
+{{ $link := .link }}
+{{ $target := .target }}
+
+{{/* Get summary. */}}
+{{ $summary := "" }}
+{{ if $item.Params.summary }}
+  {{ $summary = $item.Params.summary | markdownify | emojify }}
+{{ else if .Params.abstract }}
+  {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 135) }}
+{{ else if $item.Summary }}
+  {{ $summary = $item.Summary }}
+{{ end }}
+
+{{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+
+{{/*  {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}  */}}
+<div class="project-card project-item isotope-item {{ range $item.Params.labels }} {{ $classy := replace .name " " "-" }} {{ printf "js-id-%s" $classy | safeHTMLAttr }} {{end}}">
+  <div class="card">
+    {{/*  TODO: Make regex stricter because rn it grabs any link that ends in png,jpg,jpeg,or gif. */}}
+    {{ $img_url := findRE "(https?:).*(?:jpg|gif|png|svg)" $item.Params.Content }}  
+    {{ if $img_url  }}
+          <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
+          <img src="{{ range $img_url | first 1}}{{ . }}{{end}}" alt="" class="img-responsive">
+         </a>
+    {{ else }}
+        <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
+        <img src="{{ "/media/brainhack_header.png" | relURL }}" alt="" class="img-responsive" style="background-color: #2c2c2c;">
+        </a>
+         {{end}}
+
+    {{ with $resource }}
+    {{ $image := .Resize (printf "550x q90 %s") }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
+      <img src="{{ $image.RelPermalink }}" alt="" class="img-responsive">
+    </a>
+    {{ end }}
+    <div class="card-text">
+      <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
+              
+      {{ with $item.Params.project_description }}
+      {{/*  {{ $descrip := findRE "\\*\\*Description\\*\\*:\s.*" $item.Params.content }}  */}}
+      <div class="article-style">
+        <p>{{ . | markdownify | truncate 130}}</p>
+
+      </div>
+      {{ end }}
+       <div class="btn-links">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    {{ $project_url := findRE "http.*" $item.Params.project_url }}
+    {{ if $project_url }}
+      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{ range $project_url | first 1}}{{ print . | safeHTMLAttr }}{{end}}">
+    <i class="fab fa-github {{if .name}}mr-1{{end}}"></i>
+    
+    Project URL
+  </a>
+  {{end}}
+  {{/*  TODO:  link href to label filter (dunno if possible) */}}
+  {{ range $item.Params.labels}}
+  {{ if in "Email ok Hackathon project Ready for review" .name }}
+  {{else}}
+  <a class="btn my-1 mr-1 btn-sm" href="#" style="color: #{{ .color }}; border-color: #{{ .color }}">
+  <i class="fa fa-tag{{if .name}}mr-1{{end}}"></i>
+    {{ .name }}
+  </a>
+  {{end}}
+  {{end}}
+  </div>
+    </div>
+  </div>
+</div>
+
+
+{{/*  {{ $is_list := .is_list }}
+{{ $link := "" }}
+
+{{ range $item.Params.links }}
+  {{ $pack := or .icon_pack "fas" }}
+  {{ $pack_prefix := $pack }}
+  {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+    {{ $pack_prefix = "fa" }}
+  {{ end }}
+  {{ $link := .url | default "" }}
+  {{ $scheme := (urls.Parse $link).Scheme }}
+  {{ $target := "" }}
+  {{ if not $scheme }}
+    {{ $resource := $item.Resources.GetMatch $link }}
+    {{ if $resource }}
+      {{ $link = $resource.RelPermalink }}
+    {{ else }}
+      {{ $link = $link | relURL }}
+    {{ end }}
+  {{ else if in (slice "http" "https") $scheme }}
+    {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+  {{ end }}
+  <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+    {{ if .icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} {{if .name}}mr-1{{end}}"></i>{{end}}
+    {{ with .name }}{{ . | safeHTML }}{{end}}
+  </a>
+
+  {{ end }}  */}}
+

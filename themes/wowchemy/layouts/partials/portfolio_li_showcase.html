@@ -5,7 +5,7 @@
 {{ if $item.Params.external_link | or $item.Content }}
   {{ $do_link = true }}
 {{ else }}
-  {{ $do_link = true }}
+  {{ $do_link = false }}
 {{ end }}
 
 {{ $link := .link }}
