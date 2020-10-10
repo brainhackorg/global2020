@@ -21,7 +21,8 @@
   {{ end }}
 
   {{ range $page.Params.user_groups }}
-  {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+  {{/*  Added shuffle so the order always change!  */}}
+  {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) | shuffle }}
 
   {{if $query}}
   <div class="col-md-12">
