@@ -2,8 +2,8 @@
   "name": "BrainHack Global 2020",
   "short_name": "BrainHack Global 2020",
   "lang": "en-us",
-  "theme_color": "#427597",
-  "background_color": "#427597",
+  "theme_color": "#477773",
+  "background_color": "#477773",
   "icons": [{
     "src": "/global2020/images/icon_hu405768a2e56dba1817ce36477148a60d_2978_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
