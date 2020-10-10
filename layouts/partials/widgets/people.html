@@ -43,6 +43,8 @@
     {{ else if $avatar }}
       {{ $avatar_image := $avatar.Fill "270x270 Center" }}
       {{ $src = $avatar_image.RelPermalink }}
+    {{ else if .Params.github}}
+      {{ $src = printf "https://avatars.githubusercontent.com/%s" .Params.github }}
     {{ end }}
     {{ if $src }}
       {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
