@@ -22,6 +22,13 @@ mymap.on('mouseout', () => { mymap.scrollWheelZoom.disable(); });
 // add GPS find me button
 L.control.locate().addTo(mymap);
 
+//
+var brainIcon = L.icon({
+iconUrl: '../img/brain-marker.svg',
+    iconSize: [18, 20], // size of the icon
+});
+
+// TODO: increase size of svg when zoomed in 
 // create marker cluster layer
 var markers = L.markerClusterGroup();
 
@@ -36,10 +43,11 @@ for (let i = 0; i < items.length; i++) {
         let ad = items[i].getAttribute('data-add');
         let plz = items[i].getAttribute('data-plz');
         // create marker with associated popup
-    markers.addLayer(L.marker([iLat, iLon], { key: iLat + '__' + iLon }).bindPopup("<b>" + name + "</b>" + "<br>" + ad + ", " + "<br>" + "Organizers: " + plz)); // marker added to cluster layer
+    markers.addLayer(L.marker([iLat, iLon], { key: iLat + '__' + iLon, icon: brainIcon }).bindPopup("<b>" + name + "</b>" + "<br>" + ad + ", " + "<br>" + "Organizers: " + plz)); // marker added to cluster layer
         // we use an ID made up of iLat and iLon here, so we can find the marker again later
     // }
 }
+
 
 // add clustered markers to map
 mymap.addLayer(markers);
