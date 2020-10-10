@@ -14,7 +14,8 @@ show_social = true
 show_position = true
 
 [design]
-  clip_path = "polygon(0 0,100% 0,100% 80%,0% 100%)"
+  clip_path = "polygon(0 10%, 100% 0, 100% 90%, 0% 100%)"
+
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -32,10 +33,11 @@ show_position = true
   # Background image.
   image = "pattern.svg"  # Name of image in `static/media/`.
   image_darken = 0.0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  image_size = "actual"  #  Options are `cover` (default), `contain`, or `actual` size.
+  image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
   image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
 
   # Text color (true=light or false=dark).
   text_color_light = true
 +++
+If you would like to volunteer, contact us! 

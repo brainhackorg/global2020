@@ -5,10 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = ""
+title = "**Brainhack Global 2020 <br> is happening!**"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
-# hero_media = "headers/brain.png"
+hero_media = "headers/brain.png"
 
 [design]
   clip_path = "polygon(0 0,100% 0,100% 80%,0% 100%)"
@@ -27,11 +27,11 @@ title = ""
   # gradient_end = "#64a19d"
   
   # Background image.
-  image = "headers/brain.png"  # Name of image in `static/media/`.
-  image_darken = 0.0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  image_size = "actual"  #  Options are `cover` (default), `contain`, or `actual` size.
-  image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
+ # image = "headers/brain.png"  # Name of image in `static/media/`.
+ # image_darken = 0.0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+ # image_size = "actual"  #  Options are `cover` (default), `contain`, or `actual` size.
+ # image_position = "center"  # Options include `left`, `center` (default), or `right`.
+ # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
   text_color_light = true
@@ -55,3 +55,9 @@ title = ""
 +++
 
 <!-- <span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span> -->
+<br>
+
+## **November 30th - December 13th**
+
+<br>
+<br>

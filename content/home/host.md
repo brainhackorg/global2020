@@ -24,7 +24,7 @@ design:
     image_darken: 0.0
     image_parallax: true
     image_position: center
-    image_size: contain
+    image_size: cover
     text_color_light: true
     color: "#e3eeed"
 
