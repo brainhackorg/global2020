@@ -1,21 +1,22 @@
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
+#   desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-
-
-
-#  TODO: had to hardcode item menu with # because of the /global2020/, everything is fucked.
+#  TODO: (Sam) I had to hardcode item menu with # because of the /global2020/, everything is fucked.
+#  DONE! (Sofie) By pre-adding "../global2020/" --> Everything works! 
+ 
 [[main]]
   pre = "<i class='fas fa-brain'></i>"
   name = " Home"
-  url = "/"
+  url = "../global2020/"
   weight = 10
 
 [[main]]
-  name = "Events"
-  url = "https://brainhack.org/global2020/events"
+  pre = "<i class='fas fa-search-location'></i>"
+  name = " Events"
+  url = "../global2020/events" 
+# "https://brainhack.org/global2020/events"
   weight = 20
   # identifier = "event"
 
@@ -32,46 +33,60 @@
 #   parent = "event"
 
 [[main]]
-  name = "Projects"
-  url = "https://brainhack.org/global2020/projects"
+  pre = "<i class='fas fa-laptop'></i>"
+  name = " Projects"
+  url = "../global2020/projects"
+# "https://brainhack.org/global2020/projects"
   weight = 30
 
 [[main]]
-  name = "FAQ"
-  url = "https://brainhack.org/global2020/faq"
+  pre = "<i class='fas fa-pencil-ruler'></i>"
+  name = " Code of Conduct"
+  url = "../global2020/code-of-conduct"
+# "https://brainhack.org/global2020/code-of-conduct"
   weight = 40
+
+[[main]]
+  pre = "<i class='fas fa-users'></i>"
+  name = " Team"
+  url = "../global2020/#team"
+  weight = 50
+
+[[main]]
+  pre = "<i class='fas fa-envelope-square'></i>"
+  name = " Contact"
+  url = "../global2020/#contact" 
+# "https://brainhack.org/global2020/#contact"
+  weight = 60
+
+[[main]]
+  pre = "<i class='fas fa-question-circle'></i>"
+  name = " FAQ"
+  url = "../global2020/faq"
+# "https://brainhack.org/global2020/faq"
+  weight = 70
   # identifier = "faq"
 
 # [[main]]
 #   name = "General FAQ"
 #   url = "/faq#general-questions"
-#   weight = 41
+#   weight = 71
 #   parent = "faq"
 # [[main]]
 #   name = "FAQ for attendees"
 #   url = "https://brainhack.org/faq/#attendees"
-#   weight = 42
+#   weight = 72
 #   parent = "faq"
 
 # [[main]]
 #   name = "FAQ for hosts"
 #   url = "/faq/#hosts"
-#   weight = 43
+#   weight = 73
 #   parent = "faq"
-
-[[main]]
-  name = "Contact"
-  url = "https://brainhack.org/global2020/#contact"
-  weight = 60
-
-[[main]]
-  name = "Code of Conduct"
-  url = "https://brainhack.org/global2020/code-of-conduct"
-  weight = 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]
 #    name = "CV"
 #    url = "files/cv.pdf"
-#    weight = 70
+#    weight = 80

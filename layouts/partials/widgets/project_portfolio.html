@@ -22,9 +22,9 @@
 {{$label := getJSON "https://api.github.com/repos/ohbm/hackathon2020/labels?per_page=100"}}
 <div id="options">
   <div class="option-set" data-group="locations">
-    <input type="checkbox" value=""        id="location-all" class="all" checked /><label for="location-all">All locations</label>
+    <input type="checkbox" value="" id="location-all" class="all" checked /><label for="location-all">&nbsp;All locations</label>
     {{ range $label }} {{ if in .name "hub" }} 
-    <input type="checkbox" value=".{{replace .name " " "-"}}" id="{{replace .name " " "-"}}" /><label for="{{replace .name " " "-"}}">{{ .name }}</label>
+    <input type="checkbox" value=".{{replace .name " " "-"}}" id="{{replace .name " " "-"}}" /><label for="{{replace .name " " "-"}}">&nbsp;{{ .name }}</label>
 {{end}}{{end}}
   </div>
 </div>
