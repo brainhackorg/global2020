@@ -5,14 +5,15 @@ name = "BrainHack"
 light = true
 
 # Primary
-primary = "#427597"
+primary = "#477773"
 
 # Menu
-menu_primary = "#427597"
+menu_primary = "#477773"
 menu_text = "#fff"
-menu_text_active = "#ff8a7a"
+menu_text_active = "#2a4644"
 menu_title = "#fff"
 
 # Home sections
-home_section_odd = "white"
-home_section_even = "white"
+background = "#eff5f5"
+home_section_odd = "#e3eeed"
+home_section_even = "#e3eeed"

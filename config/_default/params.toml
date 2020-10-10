@@ -16,7 +16,7 @@
 theme = "brainhack"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
@@ -112,8 +112,8 @@ email = "brainhackorg@gmail.com"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Us", link = "https://twitter.com/brainhackorg"},
-  {icon = "mattermost", icon_pack = "fab", name = "Chat with us on Mattermost", link = "https://mattermost.brainhack.org"},
+  {icon = "twitter", icon_pack = "fab", name = "Send us a DM!", link = "https://twitter.com/brainhackorg"},
+  {icon = "comments", icon_pack = "far", name = "Chat with us on mattermost!", link = "https://mattermost.brainhack.org"},
   ]
 
 ############################
