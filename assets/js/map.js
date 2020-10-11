@@ -64,10 +64,11 @@ function findStore() {
         let plz = items[i].getAttribute('data-plz').toUpperCase();
         let cty = items[i].getAttribute('data-cty').toUpperCase();
         let shopName = items[i].getAttribute('data-name').toUpperCase();
-        if (plz.toUpperCase().indexOf(filter) > -1) { // check PLZ
-            items[i].classList.remove(hidden);
-            count = count + 1;
-        } else if (cty.toUpperCase().indexOf(filter) > -1) { // PLZ not found, check country
+        // if (plz.toUpperCase().indexOf(filter) > -1) { // check PLZ
+        //     items[i].classList.remove(hidden);
+        //     count = count + 1;
+        // } else
+        if (cty.toUpperCase().indexOf(filter) > -1) { // PLZ not found, check country
             items[i].classList.remove(hidden);
             count = count + 1;
         } else if (shopName.toUpperCase().indexOf(filter) > -1) {

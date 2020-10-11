@@ -49,7 +49,7 @@
     {{ end }}
     {{ if $src }}
       {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
-      <img title={{ if $page.Params.show_social }}{{ .Params.position }}{{ end }} class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="Avatar">
+      <img title={{ if $page.Params.show_social }}{{ .Params.position }}{{ end }} class="avatar avatar-circle" src="{{ $src }}" alt="Avatar">
     {{ end }}
 
     <div class="portrait-title">

@@ -19,7 +19,7 @@ content:
   # Page type to display. E.g. post, talk, publication...
   page_type: events
   # Choose how much pages you would like to display (0 = all pages)
-  count: 1
+  count: 5
   # Filter on criteria
   filters:
     author: ""
@@ -53,3 +53,4 @@ design:
 ---
 
 <h1><b>Local brainhacks</b></h1>
+

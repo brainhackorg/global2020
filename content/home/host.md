@@ -40,11 +40,16 @@ advanced:
   
 ---
 
-<h1><b>Host your own local Brainhack</b></h1>
+# **Host your own local Brainhack**
 <br>
 <div class="row"><div class="col-lg-8 mx-auto">
-<p>We are currently recruiting sites to host <br> local Brainhack events during Brainhack Global 2020!</p>
+
+We are currently recruiting sites to host <br> local Brainhack events during Brainhack Global 2020!
+
 <p class="text-white mb-5">
-<a href="/global2020/events#host-a-local-brainhack" class="btn btn-light mx-auto p-3 font-weight-bold">APPLY TO HOST</a></p>
-<p>For this year, we built up a welcoming pack to <b>help you organize your own local Brainhack</b>. It includes guidelines, checklists, template forms, press release material, and more! Check it out:</p>
+<a href="/global2020/events#host-your-own-local-brainhack" class="btn btn-light mx-auto p-3 font-weight-bold">APPLY TO HOST</a></p>
+
+Brainhack Organizers built up a set of resources for you to **help you organize your local Brainhack** including guidelines, checklists, template forms, press release materials and more. Check it out:
+
 <p class="text-center"><a href="https://github.com/brainhackorg/pr-material" class="btn btn-light mx-auto p-3 font-weight-bold">GET FROM GITHUB</a></p></div></div>
+ 
