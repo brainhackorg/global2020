@@ -36,34 +36,30 @@
   pre = "<i class='fas fa-laptop'></i>"
   name = " Projects"
   url = "../global2020/projects"
-# "https://brainhack.org/global2020/projects"
   weight = 30
 
 [[main]]
-  pre = "<i class='fas fa-pencil-ruler'></i>"
+  # pre = "<i class='fas fa-pencil-ruler'></i>"
   name = " Code of Conduct"
-  url = "../global2020/code-of-conduct"
-# "https://brainhack.org/global2020/code-of-conduct"
+  url = "https://brainhack.org/code-of-conduct"
   weight = 40
 
-[[main]]
-  pre = "<i class='fas fa-users'></i>"
-  name = " Team"
-  url = "../global2020/#team"
-  weight = 50
+# [[main]]
+#   # pre = "<i class='fas fa-users'></i>"
+#   name = " Team"
+#   url = "../global2020/#team"
+#   weight = 50
 
 [[main]]
-  pre = "<i class='fas fa-envelope-square'></i>"
+  # pre = "<i class='fas fa-envelope-square'></i>"
   name = " Contact"
   url = "../global2020/#contact" 
-# "https://brainhack.org/global2020/#contact"
   weight = 60
 
 [[main]]
-  pre = "<i class='fas fa-question-circle'></i>"
+  # pre = "<i class='fas fa-question-circle'></i>"
   name = " FAQ"
   url = "../global2020/faq"
-# "https://brainhack.org/global2020/faq"
   weight = 70
   # identifier = "faq"
 

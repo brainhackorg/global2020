@@ -2,10 +2,8 @@
 # An instance of the Blank widget.
 # Documentation: https://sourcethemes.com/academic/docs/page-builder/
 widget: "blank"
-
 # Activate this widget? true/false
-active: true
-
+active: false
 # This file represents a page section.
 headless: true
 
@@ -28,7 +26,8 @@ design:
     padding: ["20px", "0", "20px", "0"]
 ---
 
-# BRAINHACK CODE OF CONDUCT
+
+<!-- # BRAINHACK CODE OF CONDUCT
 
 Brainhack is dedicated to providing a harassment-free Brainhack experience for all of its participants, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, or other identities. We do not tolerate harassment of event participants in any form.
 
@@ -170,4 +169,4 @@ The Code of Conduct committee will respect confidentiality requests for the purp
 
 This Code of Conduct was adapted from [Community Covenant](https://community-covenant.net/version/1/0/), [Django Project](https://www.djangoproject.com/conduct/), [Open Science UMontreal](https://openscience.ca/coc) Code of Conducts by Isil Bilgin, Anibal Solon Heinsfeld, Aki Nikolaidis, Emma Kaywin, & Samuel Guay.
 
-License:  Brainhack Code of Conduct is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Cite as, Brainhack. 2020. Brainhack Code of Conduct. Available at [https://brainhack.org/code-of-conduct](https://brainhack.org/code-of-conduct) 
+License:  Brainhack Code of Conduct is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Cite as, Brainhack. 2020. Brainhack Code of Conduct. Available at [https://brainhack.org/code-of-conduct](https://brainhack.org/code-of-conduct)  -->
