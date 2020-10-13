@@ -32,10 +32,10 @@ If at any time you need help from us or anything is unclear, please add a commen
 **Project lead:**
 <!-- Add full name (and Twitter and Mattermost handle if possible) of the contact person. -->
 
-**Project collaborators**
+**Project collaborators:**
 <!-- Add full names (and Twitter handles if possible) of any person contributing to the project. Try to follow the [all-contributors specification](https://github.com/all-contributors/all-contributors). Contributions of any kind are welcome! -->
 
-**Registered Brainhack Global 2020 Event**
+**Registered Brainhack Global 2020 Event:**
 <!-- Specify the city and country of the Brainhack Global 2020 event that you
 registered for. If your local event has a special name or topic (e.g. Brainhack
 London - Clinical Nuroanatomy), please do specify that as well to help us
