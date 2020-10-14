@@ -3,13 +3,13 @@
 # This section displays people from `content/authors/` which belong to the `user_groups` below.
 widget = "people"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Meet the Team"
 subtitle = "The more, the merrier!"
 
-user_groups = ["BHG 2020 Core Team", "Volunteers"]
+user_groups = ["Brainhack Global Organizing Committee", "Volunteers"]
 show_social = true
 show_position = true
 

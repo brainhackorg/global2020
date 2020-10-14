@@ -44,11 +44,11 @@
   url = "https://brainhack.org/code-of-conduct"
   weight = 40
 
-# [[main]]
-#   # pre = "<i class='fas fa-users'></i>"
-#   name = "Team"
-#   url = "../global2020/#team"
-#   weight = 50
+[[main]]
+  # pre = "<i class='fas fa-users'></i>"
+  name = "Team"
+  url = "../global2020/#team"
+  weight = 50
 
 [[main]]
   # pre = "<i class='fas fa-envelope-square'></i>"
