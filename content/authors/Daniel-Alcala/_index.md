@@ -20,9 +20,9 @@ social:
 # - icon: envelope
 #   icon_pack: fas
 #   link: ""  # For a direct email link, use "mailto:test@example.org".
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/YOURUSERNAME
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/danalclop
 - icon: github
   icon_pack: fab
   link: https://github.com/danalclop
