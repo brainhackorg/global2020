@@ -36,6 +36,6 @@ design:
 
 Brainhack Global organization aims to create a (de)centralized collaborative working platform that would increase the cross-site interactions and networking while giving visibility to the projects run under Brainhack Global events as possible. We encourage sharing experiences, knowledge, and expertise across parties, removing the barriers and allowing contributions of researchers from all around the world with a variety of backgrounds.
 
-If you would like to submit a project, please do so by [opening an issue here](https://github.com/brainhackorg/global2020/issues/new/choose) or read the submission guidelines [down below the gallery]() to get more details.
+If you would like to submit a project, please do so by [opening an issue here](https://github.com/brainhackorg/global2020/issues/new/choose) or read the submission guidelines [down below the gallery](brainhack-global-2020-project-submission-guideline) to get more details.
 
 {{% /alert %}}
