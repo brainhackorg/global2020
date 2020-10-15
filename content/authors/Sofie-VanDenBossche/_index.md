@@ -4,7 +4,7 @@ title: "Sofie Van Den Bossche"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "sofie-vandenbossche"
+- "Sofie Van Den Bossche"
 github: sofievdbos
 # Is this the primary user of the site?
 superuser: false
@@ -33,5 +33,5 @@ email: "sofie.vandenbossche93@gmail.com"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- BHG 2020 Core Team
+- Brainhack Global Organizing Committee
 ---

@@ -43,7 +43,7 @@ hero_media = "headers/brain.png"
   url = "/events#host-your-own-local-brainhack"
   label = "Host your own local Brainhack"
   icon_pack = "fas"
-  icon = "map-pin  fa-fw"
+  icon = "map-pin fa-fw"
 #   
 # [cta_alt]
 #   url = "#projects"
