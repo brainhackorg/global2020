@@ -13,7 +13,7 @@ headless: true
 weight: 22
 
 title: "Schedule"
-subtitle: "Don't miss out the next coming event!"
+subtitle: "Don't miss out on the next coming events!"
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 # hero_media: "virtualbh_2.png"
 design:
