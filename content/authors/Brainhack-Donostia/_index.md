@@ -5,7 +5,7 @@ title: "Brainhack Donostia"
 # Username (this should match the folder name and the name on publications)
 authors:
 - "Brainhack Donostia"
-github: bhg-donostia
+github: Brainhack-Donostia
 # Is this the primary user of the site?
 superuser: false
 
@@ -25,7 +25,7 @@ social:
   link: https://twitter.com/BHDonostia
 - icon: github
   icon_pack: fab
-  link: https://github.com/bhg-donostia
+  link: https://github.com/Brainhack-Donostia
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
