@@ -1,6 +1,6 @@
 ---
-title: BrainHack Donostia
-event: BrainHack Donostia
+title: Brainhack Donostia
+event: Brainhack Donostia
 event_url: https://brainhack-donostia.github.io/
 
 location: Somewhere on the planet

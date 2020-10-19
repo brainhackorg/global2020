@@ -1,16 +1,16 @@
 # Theme metadata
-name = "BrainHack"
+name = "Brainhack"
 
 # Is theme light or dark?
 light = true
 
 # Primary
-primary = "#477773"
+primary = "#66a49f"
 
 # Menu
-menu_primary = "#477773"
+menu_primary = "#66a49f"
 menu_text = "#fff"
-menu_text_active = "#2a4644"
+menu_text_active = "#ffe5e7"
 menu_title = "#fff"
 
 # Home sections
@@ -19,5 +19,5 @@ home_section_odd = "#e3eeed"
 home_section_even = "#e3eeed"
 
 # Links
-link = "#477773"
+link = "#fe97a0"
 link_hover = "#477773"
