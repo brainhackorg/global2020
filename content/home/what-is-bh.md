@@ -42,7 +42,7 @@ Brainhack is a unique event format that convenes researchers from across the glo
 
 Year after year, global Brainhack events have brought researchers together to participate in <b>open collaboration</b>, and regional Brainhack events keep the momentum going throughout the year.
 
-2020 being 2020, this year’s Brainhack Global will unite several <b>virtual</b> regional Brainhack events throughout the world.
+2020 being 2020, this year’s Brainhack Global will unite several **virtual** regional Brainhack events throughout the world.
 
 
 <br>
