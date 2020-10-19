@@ -52,9 +52,7 @@
     {{ $project_url := findRE "http.*" $item.Params.project_url }}
     {{ if $project_url }}
       <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{ range $project_url | first 1}}{{ print . | safeHTMLAttr }}{{end}}">
-    <i class="fab fa-github {{if .name}}mr-1{{end}}"></i>
-    
-    Project URL
+    <i class="fab fa-github {{if .name}}mr-1{{end}}"></i>&nbsp;Project URL
   </a>
   {{end}}
   {{/*  TODO:  link href to label filter (dunno if possible) */}}
@@ -101,4 +99,3 @@
   </a>
 
   {{ end }}  */}}
-

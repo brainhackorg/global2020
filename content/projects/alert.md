@@ -34,8 +34,8 @@ design:
 
 **A Centralized Project Gallery**
 
-Brainhack Global organization aims to create a (de)centralized collaborative working platform that would increase the cross-site interactions and networking while giving visibility to the projects run under Brainhack Global events as possible. We encourage sharing experiences, knowledge, and expertise across parties, removing the barriers and allowing contributions of researchers from all around the world with a variety of backgrounds.
+The Brainhack Global team aims to create a (de)centralized collaborative working platform that would facilitate & increase across-site collaborations and interactions while also giving visibility to the projects run under Brainhack Global as much as possible. We encourage sharing ideas, experiences and knowledge across parties, removing the barriers and allowing contributions by researchers from all around the globe and a myriad of disciplines.
 
-If you would like to submit a project, please do so by [opening an issue here](https://github.com/brainhackorg/global2020/issues/new/choose) or read the submission guidelines [down below the gallery](#brainhack-global-2020-project-submission-guideline) to get more details.
+If you would like to submit a project, please do so by [opening an issue here](https://github.com/brainhackorg/global2020/issues/new/choose) or reading the submission guidelines [down below the gallery](#guidelines) to get more details.
 
 {{% /alert %}}
