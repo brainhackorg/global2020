@@ -1,5 +1,17 @@
 // Override this file to add your own SCSS styling.
 
+.cta-btns .btn-light:hover {
+  color: #ffe5e7;
+  background-color: #2a4644;
+  box-shadow: 0 0 20px #eee;
+}
+
+.btn-light:hover {
+  color: #ffe5e7;
+  background-color: #66a49f;
+  box-shadow: 0 0 20px #eee;
+}
+
 // FAQ STYLING
 .fa-chevron-up {
     transition: all 0.3s ease;
@@ -434,8 +446,8 @@
 
 // /* Default icon URLs */
 // .leaflet-default-icon-path {
-// 	background-image: url(../../global2020/img/marker-icon.png);
-// 	}
+//    background-image: url(../../global2020/img/marker-icon.png);
+//    }
 
 
 /* attribution and scale controls */
@@ -685,7 +697,7 @@
 }
 
 .sItem--offline {
-    border-left: 8px solid #5E81AC;
+    border-left: 8px solid #ffd1d5;
     background-color: #f9f8fa;
     text-align: left;
 }
@@ -728,7 +740,7 @@
 
     .sItem--offline:hover {
         cursor: pointer;
-        border-left: 8px solid #BF616A;
+        border-left: 8px solid #fe97a0;
         background-color: #E5E9F0;
         transition: all .35s ease-in-out;
     }

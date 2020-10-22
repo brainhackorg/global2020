@@ -113,7 +113,7 @@ email = "brainhackorg@gmail.com"
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "Send us a DM!", link = "https://twitter.com/brainhackorg"},
-  {icon = "comments", icon_pack = "far", name = "Chat with us on mattermost!", link = "https://mattermost.brainhack.org"},
+  {icon = "comments", icon_pack = "far", name = "Chat with us on Mattermost!", link = "https://mattermost.brainhack.org"},
   ]
 
 ############################
