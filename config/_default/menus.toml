@@ -15,7 +15,7 @@
 [[main]]
   pre = "<i class='fas fa-search-location'></i>"
   name = "&nbsp; Events"
-  url = "../global2020/events" 
+  url = "../global2020/events/" 
 # "https://brainhack.org/global2020/events"
   weight = 20
   # identifier = "event"
@@ -35,7 +35,7 @@
 [[main]]
   pre = "<i class='fas fa-laptop'></i>"
   name = "&nbsp; Projects"
-  url = "../global2020/projects"
+  url = "../global2020/projects/"
   weight = 30
 
 [[main]]
@@ -59,7 +59,7 @@
 [[main]]
   # pre = "<i class='fas fa-question-circle'></i>"
   name = "FAQ"
-  url = "../global2020/faq"
+  url = "../global2020/faq/"
   weight = 70
   # identifier = "faq"
 
