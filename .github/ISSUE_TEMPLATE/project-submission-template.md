@@ -1,7 +1,7 @@
 ---
-name: "Project submission template"
+name: Project submission template
 about: Fill in this template to submit a project
-title: ""
+title: ''
 labels: project
 assignees: ''
 
@@ -9,13 +9,12 @@ assignees: ''
 
 <!-- Guidelines
 
-We are very excited to meet you at Brainhack Global 2020 🎉. To submit a project, you need to be an attendee to one of the Brainhack Global 2020 events listed the [Brainhack Global 2020 webpage](https://brainhack.org/global2020/events/). Please, register to the event that is most suitable to your location, time zone, interest, and/or project prior to submitting one. Thank you!
+We are very excited to meet you at Brainhack Global 2020 🎉. To submit a project, you need to be an attendee to one of the Brainhack Global 2020 events listed on the [Brainhack Global 2020 webpage](https://brainhack.org/global2020/events/). Please, register for the event that is most suitable to your location, time zone, interest, and/or project prior to submitting one. Thank you!
 
 We have prepared a checklist to help with your project submission. Here is how to proceed:
 
-Before filling in any part, please submit this issue
-Check items in the checklist below as you go through them
-Once you are done (at least all 'required' items must be provided), please delete the "Guidelines" section and add a comment saying 'Hi @Brainhack-Global/project-monitors: my project is ready!'
+Before filling in any part please check items in the checklist below as you go through them.
+Once you are done (at least all 'required' items must be provided), please delete the "Guidelines" section, submit your issue and add a comment saying 'Hi @Brainhack-Global/project-monitors: my project is ready!'
 Thank you!
 
 After the issue is submitted, we will assign a 'project monitor' from the event location that you are registered with to review your submission. Once the submission is approved by the 'project monitor', they will add the label 'Project is ready' and it will appear on [Brainhack Global 2020 Projects](https://brainhack.org/global2020/projects) page with a separate project dedicated webpage. 
