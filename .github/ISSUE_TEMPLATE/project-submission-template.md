@@ -37,7 +37,7 @@ If at any time you need help from us or anything is unclear, please add a commen
 **Registered Brainhack Global 2020 Event:**
 <!-- Specify the city and country of the Brainhack Global 2020 event that you
 registered for. If your local event has a special name or topic (e.g. Brainhack
-London - Clinical Nuroanatomy), please do specify that as well to help us
+London - Clinical Neuroanatomy), please do specify that as well to help us
 distinguish between potential events in the same city. -->
 
 **Project Description:**
@@ -64,13 +64,13 @@ Where to find key resources; -->
 2.
 
 **Skills:**
-<!-- Add a list of skills needed to contribute to this project. Try to think of both coding and non-coding skills. You can provide predefined skill levels, but it’s better if you give concrete examples of the type of task contributors will be facing. Please make sure you create equal opportunties to accomodate the newcomers in your project to learn from each other and share the experiences. -->
+<!-- Add a list of skills needed to contribute to this project. Try to think of both coding and non-coding skills. You can provide predefined skill levels, but it’s better if you give concrete examples of the type of task contributors will be facing. Please make sure you create equal opportunities to accommodate the newcomers in your project to learn from each other and share the experiences. -->
 
 **Communication channels:**
 <!-- Add links to chat channels in Slack or Mattermost -->
 
 
-<!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know --> 
+<!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch, or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know --> 
 
 ## Project Submission
 
@@ -90,7 +90,7 @@ Optionally, you can also include information about:
 - [ ] Number of participants required.
 - [ ] Twitter-size summary of your project pitch.
 - [ ] Provide an image of your project for the Brainhack Global 2020 website. 
-<!-- You can put an image anywhere in this issue and it will be used in to build your project page on the website. -->
+<!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->
 
 We would like to think about how you will credit and onboard new members to your project. If you’d like to share your thoughts with future project participants, you can include information about:
 
