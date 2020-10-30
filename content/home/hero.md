@@ -44,6 +44,7 @@ hero_media = "headers/brain.png"
   label = "Host your own local Brainhack"
   icon_pack = "fas"
   icon = "map-pin fa-fw"
+
 #   
 # [cta_alt]
 #   url = "#projects"
@@ -57,7 +58,9 @@ hero_media = "headers/brain.png"
 
 <br>
 
+
 ## **November 30th - December 13th**
 
 <br>
 <br>
+
