@@ -1,10 +1,12 @@
 ---
 name: Website issue template
 about: Use this template to open issue regarding design/function of the website
-labels: website
+title: ''
+labels: ''
 assignees: ''
 
 ---
+
 <!-- Describe in simple words or drawings the issue, don't worry about this template if you don't feel like filling it out, simply state what you want below. -->
 
 <!-- Add bug or feature or design -->

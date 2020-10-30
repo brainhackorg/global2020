@@ -1,7 +1,7 @@
 ---
 # An instance of the Blank widget.
 # Documentation: https://sourcethemes.com/academic/docs/page-builder/
-widget: blank
+widget: "blank"
 
 # Activate this widget? true/false
 active: true
@@ -31,8 +31,12 @@ design:
 
 
 {{% alert note %}}
-The Brainhack Code of Conduct is currently under review by the community. In the mean time, you can read the most recent version below. If you would like to comment on it, please refer to [the working document](https://docs.google.com/document/d/11aE6vv67i9pzOUN7DTypqiAVUutXAijP7_jZTURHhAM/edit).
+The official Brainhack Code of Conduct is available at [brainhack.org/code-of-conduct](https://brainhack.org/code-of-conduct). Please refer to this [link](https://brainhack.org/code-of-conduct) if you landed here to read the Code of Conduct.
 {{% /alert %}}
 
-<!-- Photo by Sharon McCutcheon from Pexels -->
 
+<!-- {{% alert note %}}
+The Brainhack Code of Conduct is currently under review by the community. In the meantime, you can read the most recent version below. If you would like to comment on it, please refer to [the working document](https://docs.google.com/document/d/11aE6vv67i9pzOUN7DTypqiAVUutXAijP7_jZTURHhAM/edit).
+{{% /alert %}} -->
+
+<!-- Photo by Sharon McCutcheon from Pexels -->

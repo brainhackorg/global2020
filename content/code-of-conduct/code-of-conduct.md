@@ -1,11 +1,9 @@
 ---
 # An instance of the Blank widget.
 # Documentation: https://sourcethemes.com/academic/docs/page-builder/
-widget: blank
-
+widget: "blank"
 # Activate this widget? true/false
-active: true
-
+active: false
 # This file represents a page section.
 headless: true
 
@@ -28,7 +26,8 @@ design:
     padding: ["20px", "0", "20px", "0"]
 ---
 
-# BRAINHACK CODE OF CONDUCT
+
+<!-- # BRAINHACK CODE OF CONDUCT
 
 Brainhack is dedicated to providing a harassment-free Brainhack experience for all of its participants, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, or other identities. We do not tolerate harassment of event participants in any form.
 
@@ -50,8 +49,6 @@ Although this list cannot be exhaustive, we explicitly honor diversity in age, g
 
 We aim to create a discussion platform that welcomes individuals with diverse backgrounds to interact with each other in a positive environment. We encourage the following behaviors that can help to create such an environment: 
 
-
-
 *   Being a respectful listener (not taking up more than your fair share of space);
 *   Being respectful to other viewpoints (agreeing respectfully, asking questions to understand differing viewpoints);
 *   Be direct but professional; we cannot withhold hard truths.;
@@ -66,8 +63,6 @@ We aim to create a discussion platform that welcomes individuals with diverse ba
 ## Harassment Statement
 
 Our community does not tolerate any type of harassment that might occur online or offline. In particular, this includes the following categories:
-
-
 
 *   Offensive and unwelcome verbal comments, inclines, gestures that address, but not limited to: 
     *   Gender
@@ -117,8 +112,6 @@ Our community does not tolerate any type of harassment that might occur online o
 
 Incidents can take the form of “microaggressions,” which is a damaging form of harassment. Microaggressions are the everyday slights or insults which communicate negative messages to target individuals, often based upon their marginalized group membership. Over time, microaggressions can take a great toll on mental and emotional health, and the target’s feeling of belonging in science and academia. The following examples can all be labeled micro-aggressions:
 
-
-
 *   Commenting on a woman’s appearance rather than her work;
 *   Only directing questions at male colleagues when there are female experts in the room;
 *   Telling someone of color that they “speak such good English”;
@@ -159,7 +152,9 @@ After filing a report, the Code of Conduct Committee will contact you personally
 
 If you experience a time lapse between your informing and the response and still feel uncomfortable with the situation, please put your personal safety and well-being first. Consider logging out and be persistent on getting a reply and help from the Code of Conduct committee. 
 
-**2. Address it directly: **For smaller incidents that might be settled with a brief conversation, you can choose to direct messaging to the person in question or set up a video chat to discuss how it affected you. Please use this approach only if you feel comfortable; you do not have to carry the weight of addressing these issues yourself. If you’re interested in this option but unsure how to go about it, try discussing with the Code of Conduct Committee first—they will have advice on how to make the conversation happen and can also join you in a conversation.
+**2. Address it directly:**
+
+For smaller incidents that might be settled with a brief conversation, you can choose to direct messaging to the person in question or set up a video chat to discuss how it affected you. Please use this approach only if you feel comfortable; you do not have to carry the weight of addressing these issues yourself. If you’re interested in this option but unsure how to go about it, try discussing with the Code of Conduct Committee first—they will have advice on how to make the conversation happen and can also join you in a conversation.
 
 
 ## Enforcement Process
@@ -174,4 +169,4 @@ The Code of Conduct committee will respect confidentiality requests for the purp
 
 This Code of Conduct was adapted from [Community Covenant](https://community-covenant.net/version/1/0/), [Django Project](https://www.djangoproject.com/conduct/), [Open Science UMontreal](https://openscience.ca/coc) Code of Conducts by Isil Bilgin, Anibal Solon Heinsfeld, Aki Nikolaidis, Emma Kaywin, & Samuel Guay.
 
-License:  Brainhack Code of Conduct is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Cite as, Brainhack. 2020. Brainhack Code of Conduct. Available at [https://brainhack.org/code-of-conduct](https://brainhack.org/code-of-conduct) 
+License:  Brainhack Code of Conduct is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Cite as, Brainhack. 2020. Brainhack Code of Conduct. Available at [https://brainhack.org/code-of-conduct](https://brainhack.org/code-of-conduct)  -->

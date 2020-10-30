@@ -93,12 +93,7 @@ events:
     position:
       lat: 43.294272 
       lng: -1.986154
-    dates:
-      - 2019-11-09
-      - 2019-11-10
-      - 2019-11-11
-      - 2019-11-12
-      - 2019-11-13
+    dates: "From 2020-11-09 to 2020-11-13"
 
   # - title: Brainhack Eugene 
   #   organizers:
