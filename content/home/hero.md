@@ -49,13 +49,13 @@ hero_media = "headers/brain.png"
 #   url = "#projects"
 #   label = "Show the projects"
 # Note. An optional note to show underneath the links.
+
 #[cta_note]
 #  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest releaseV</a>'
 +++
 
 
 <br>
-
 
 ## **November 30th - December 13th**
 
