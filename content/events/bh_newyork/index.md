@@ -65,5 +65,3 @@ math: true
 NY will be a fully virtual event perfect for first-time hackers, with tutorials and guest lectures focused on the development of skills to tackle a variety of computational neuroscience problems. Over the course of two days, you will also be able to participate
  in hands-on projects within the Tri-I/Cornell community and beyond.
 For the schedule of the event please see the [Brainhack New York website](https://brainhack-ny.github.io/).
-
-
