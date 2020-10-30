@@ -66,5 +66,4 @@ NY will be a fully virtual event perfect for first-time hackers, with tutorials 
  in hands-on projects within the Tri-I/Cornell community and beyond.
 For the schedule of the event please see the [Brainhack New York website](https://brainhack-ny.github.io/).
 
-# <iframe src="https://calendar.google.com/calendar/embed?height=1000&amp;wkst=2&amp;bgcolor=%234a578e&amp;src=YmhnLWRvbm9zdGlhQGJjYmwuZXU&amp;color=%23039BE5&amp;title=Brainhack%20Donostia%202020&amp;mode=AGENDA&amp;showTabs=0&amp;showCalendars=0&amp;showPrint=0&amp;tab=mc&amp;mode=week&amp;dates=20201109/20201115&amp;ctz=America/New_York" style="border:solid 1px #777" scrolling="no" width="100%" height="800" frameborder="0"></iframe>
 
