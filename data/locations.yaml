@@ -1,4 +1,33 @@
 events:
+  - title: Brainhack Donostia
+    organizers:
+      # TODO: add organizers
+      - Eneko
+      - Stefano Moia
+    contact:
+      - info.bhg-donostia@bcbl.eu
+    website: https://brainhack-donostia.github.io
+    address: BCBL - Basque Center on Cognition, Brain and Language, Paseo Mikeletegi, 69, 20009 Donostia,Spain
+    position:
+      lat: 43.294272
+      lng: -1.986154
+    dates: "From 2020-11-09 to 2020-11-13"
+
+  - title: Brainhack New York
+    organizers:
+      - Xihe Xie
+      - Emily Olafson
+      - Anjali Rajadhyaksha
+    contact:
+      - brainhack.ny@gmail.com
+    website: https://brainhack-ny.github.io/
+    address: Virtual Event Hosted by Weill Cornell Medicine Graduate School, Cornell University
+    position:
+      lat: 40.7651919
+      lng: -73.9554942
+    dates: "From 2020-12-11 to 2020-12-13"
+
+
   # - title: Brainhack Atlanta
   #   organizers: 
   #     - Yasmine Bassil
@@ -81,19 +110,6 @@ events:
   #     - 2019-11-16
   #     - 2019-11-17
 
-  - title: Brainhack Donostia
-    organizers:
-      # TODO: add organizers
-      - Eneko
-      - Stefano Moia
-    contact:
-      - info.bhg-donostia@bcbl.eu
-    website: https://brainhack-donostia.github.io
-    address: BCBL - Basque Center on Cognition, Brain and Language, Paseo Mikeletegi, 69, 20009 Donostia,Spain
-    position:
-      lat: 43.294272 
-      lng: -1.986154
-    dates: "From 2020-11-09 to 2020-11-13"
 
   # - title: Brainhack Eugene 
   #   organizers:

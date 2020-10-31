@@ -22,7 +22,7 @@
                 <!-- search on top -->
                 <div class="p-4">
                     <div class="input-group shadow-sm mt-3">
-                        <input class="form-control border-0" type="text" id="storefinder" onkeyup="findStore();" placeholder="area or topics, e.g. 'brain'">
+                        <input class="form-control border-0" type="text" id="storefinder" onkeyup="findStore();" placeholder="location, e.g. 'Donostia'">
                         <div class="input-group-append">
                             <button class="btn btn-secondary bg-white text-secondary border-0 py-0" type="submit">Find</button>
                         </div>
@@ -60,7 +60,7 @@
 </div>
 {{/*  End of map  */}}
            
-      {{ range .Data.Pages.GroupByDate "2006" }}
+      {{ range .Data.Pages.GroupByDate "2006" "asc" }}
       <div class="row" id="talk_list">
         <div class="col-lg-2">
           <h3>{{ .Key }}</h3>
