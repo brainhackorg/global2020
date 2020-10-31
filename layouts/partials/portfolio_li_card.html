@@ -17,7 +17,7 @@
 {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
 
 {{/*  {{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}  */}}
-<div class="project-card project-item isotope-item {{ range $item.Params.labels }} {{ $classy := replace .name " " "-" }} {{ printf "js-id-%s" $classy | safeHTMLAttr }} {{end}}">
+<div class="project-card project-item isotope-item {{ range $item.Params.labels }} {{ $classy := replace .name " " "-" }}{{ $classy := replace .name ":" "-" }} {{ printf "js-id-%s" $classy | safeHTMLAttr }} {{end}}">
   <div class="card">
     {{/*  TODO: Make regex stricter because rn it grabs any link that ends in png,jpg,jpeg,or gif. */}}
     {{ $img_url := findRE "(https?:).*(?:jpg|gif|png|svg)" $item.Params.Content }}  
@@ -47,7 +47,7 @@
 
       </div>
       {{ end }}
-       <div class="btn-links">
+      <div class="btn-links">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
     {{ $project_url := findRE "http.*" $item.Params.project_url }}
     {{ if $project_url }}
@@ -57,12 +57,26 @@
   {{end}}
   {{/*  TODO:  link href to label filter (dunno if possible) */}}
   {{ range $item.Params.labels}}
-  {{ if in "Email ok Hackathon project Ready for review" .name }}
-  {{else}}
-  <a class="btn my-1 mr-1 btn-sm" href="#" style="color: #{{ .color }}; border-color: #{{ .color }}">
-  <i class="fa fa-tag{{if .name}}mr-1{{end}}"></i>
-    {{ .name }}
-  </a>
+  {{ if findRE "status:" .name }}
+  {{ else if in "project" .name }}
+  {{ else if findRE "bhg:" .name }}
+  {{ else if findRE "topic:" .name }}
+  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>{{ replace (.name | replaceRE "^topic:" "") "_" " " }}</a>
+  {{ else if findRE "project_type:" .name }}
+  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}"><i class="fa fa-tasks {{if .name}}mr-1{{end}}"></i>{{ replace (.name | replaceRE "^project_type:" "") "_" " " }}</a>
+  {{ else if findRE "project_tools_skills:" .name }}
+  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>Skills: {{ replace (.name | replaceRE "^project_tools_skills:" "") "_" " " }}</a>
+  {{ else if findRE "tools:" .name }}
+  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>{{ replace (.name | replaceRE "^tools:" "") "_" " " }}</a>
+  {{ else if findRE "programming:" .name }}
+  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>{{ replace (.name | replaceRE "^programming:" "") "_" " " }}</a>
+  {{ else if findRE "modality:" .name }}
+  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #fff; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>{{ replace (.name | replaceRE "^modality:" "") "_" " " }}</a>
+  {{ else if findRE "git_skills" .name }}
+  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>Git level: {{ replace (.name | replaceRE "^git_skills:" "") "_" " " }}</a>
+  {{ else}}
+  <a class="btn my-1 mr-1 btn-sm" href="{{ $link }}" style="color: #000; background-color: #{{ .color }}"><i class="fa fa-tag {{if .name}}mr-1{{end}}"></i>{{ .name | humanize }}</a>
+
   {{end}}
   {{end}}
   </div>
