@@ -1,7 +1,7 @@
 {
   "project_url": "https://github.com/brainhackorg/global2020/issue",
   "project_description": "There is still time to submit a project!",
-  "Title": "Be the first one to submit a project",
+  "Title": "Interested in submitting a project?",
   "issue_number": 124,
   "link_to_issue": "https://github.com/brainhackorg/global2020/issue",
   "labels": [
