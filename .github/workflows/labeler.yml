@@ -1,0 +1,16 @@
+name: "Label from issue first message body"
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  triage:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: github/issue-labeler@v2.0
+      with:
+        repo-token: "${{ secrets.GH_TOKEN }}"
+        configuration-path: .github/labeler.yml
+        not-before: 2020-10-29T00:00:00Z
+        enable-versioned-regex: 0
