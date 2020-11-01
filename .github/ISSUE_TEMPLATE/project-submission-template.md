@@ -73,8 +73,8 @@ Where to find key resources; -->
 <!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch, or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know --> 
 
 **Project labels**
-<!-- Please prepend an hashtag (#) to all of the labels that fit your project, then tick the box below to state you did so (either by adding an 'x' between square brackets, or by ticking it after submisison).
-E.g. my project is about the modulatory effect of salmon mousse on british supper survival
+<!-- Please prepend a hashtag (#) to all of the labels that fit your project, then tick the box below to state you did so (either by adding an 'x' between square brackets or by ticking it after submission).
+E.g. my project is about the modulatory effect of salmon mousse on British supper survival
 In the following list:
 ```
 meal:
@@ -93,7 +93,7 @@ type:
 Now the real list (please indicate all of the labels you'd like to add to your project):
 - Type of project:
 coding_methods, data_management, documentation, method_development,
-pipeline_development, tutorial_recording, visualisation
+pipeline_development, tutorial_recording, visualization
 - Project development status:
 0_concept_no_content, 1_basic structure, 2_releases_existing
 - Topic of the projet:
@@ -116,7 +116,7 @@ behavioral, DWI, ECG, ECOG, EEG, eye_tracking, fMRI, fNIRS, MEG, MRI, PET, TDCS,
 - Git skills reuired to enter the project (more than one possible):
 0_no_git_skills, 1_commit_push, 2_branches_PRs, 3_continuous_integration
 -->
-- [ ] I added all of the labels I want associate to my project
+- [ ] I added all of the labels I want an associate to my project
 
 ## Project Submission
 
@@ -134,7 +134,7 @@ behavioral, DWI, ECG, ECOG, EEG, eye_tracking, fMRI, fNIRS, MEG, MRI, PET, TDCS,
 Optionally, you can also include information about:
 
 - [ ] Number of participants required.
-- [ ] Twitter-size summary of your project pitch.
+- [ ] Twitter-sized summary of your project pitch.
 - [ ] Provide an image of your project for the Brainhack Global 2020 website. 
 <!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->
 
