@@ -38,7 +38,7 @@ modality:TMS:
     - '#TMS'
 # Programming labels
 programming:C++:
-    - '#C++'
+    - '#C\+\+'
 programming:containerization:
     - '#containerization'
 programming:documentation:
