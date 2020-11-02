@@ -36,7 +36,7 @@ for issue in issues:
                     labels['labels'].append(label_dict)
                 content = {'content': issue['body']}
                 # TODO: Grab other relevant terms such as Project leads, etc.
-                proj_match = re.search('(?<=Link to project repository\\/sources:\*\*)[\\r\\n\s]*(http.*)(?=\\r\\n)', issue['body'])
+                proj_match = re.search('(?<=Link to project repository\\/sources:\*\*)[\\r\\n\s]*.*(http.*)(?=\\r\\n)', issue['body'])
                 if proj_match:
                     project_url = {'project_url': proj_match.group()}
                     projects["project_{0}".format(i)].update(project_url) 
