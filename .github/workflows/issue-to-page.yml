@@ -15,7 +15,7 @@ jobs:
         python-version: '3.8'
 
     - name: Install dependencies
-      run: python -m pip install --upgrade pip requests re json
+      run: python -m pip install --upgrade pip requests regex json
     
     - name: Run script to generate separate pages from issues
       run: |
