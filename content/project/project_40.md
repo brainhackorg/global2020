@@ -66,6 +66,11 @@
       "color": "0e8a16"
     },
     {
+      "name": "status:web_ready",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
       "name": "tools:BIDS",
       "description": "",
       "color": "0052cc"
