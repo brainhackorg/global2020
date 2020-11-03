@@ -11,7 +11,7 @@ if response.status_code == 200:
 else:
     print("not working")
 
-value = 'status:web_ready'
+value = 'status:published'
 projects = {}
 i=0
 for issue in issues:

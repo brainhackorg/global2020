@@ -2,7 +2,7 @@ name: Generate project pages from project issues
 
 on:
   issues:
-    types: [labeled]
+    types: [opened, edited, deleted, closed, reopened, labeled, unlabeled]
 
 jobs:
   build:
@@ -24,9 +24,8 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
-        branch: project
-        labels: |
-          status:published
+        branch: publish-project
+        commit-message: Convert issues to project pages, yay!
         assignees: SamGuay
     - name: Check outputs
       run: |
