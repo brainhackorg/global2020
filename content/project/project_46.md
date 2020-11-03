@@ -101,7 +101,7 @@
       "color": "c5def5"
     },
     {
-      "name": "status:web_ready",
+      "name": "status:published",
       "description": "",
       "color": "0e8a16"
     },
