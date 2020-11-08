@@ -66,6 +66,9 @@ Where to find key resources; -->
 **Skills:**
 <!-- Add a list of skills needed to contribute to this project. Try to think of both coding and non-coding skills. You can provide predefined skill levels, but it’s better if you give concrete examples of the type of task contributors will be facing. Please make sure you create equal opportunities to accommodate the newcomers in your project to learn from each other and share the experiences. -->
 
+**Tools/Software/Methods to Use:**
+<!-- Add a list of tools/software/methods that are advised to be installed/reviewed ahead of the event to gain a bit of time with the installation of the software, preparation of the environments or describing the methods that will be needed to contribute to this project. Try to think of both coding and non-coding details regarding such to be listed. -->
+
 **Communication channels:**
 <!-- Add links to chat channels in Slack or Mattermost -->
 
