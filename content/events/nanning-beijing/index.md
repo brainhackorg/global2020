@@ -46,8 +46,10 @@ links:
 #   icon_pack: fas
 #   name: Streaming
 #   url:
-   name: Mattermost Channel
-   url: https://mattermost.brainhack.org/brainhack/channels/brainhack2020-beijingnanning
+- icon: mattermost
+  icon_pack: custom
+  name: Mattermost Channel
+  url: https://mattermost.brainhack.org/brainhack/channels/brainhack2020-beijingnanning
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

@@ -48,12 +48,14 @@ links:
   url: https://twitter.com/BrainHackUWO
 
   - icon: video
-   icon_pack: fas
-   name: Streaming
-   url: https://www.crowdcast.io/e/brainhack-ontario/1
+  icon_pack: fas
+  name: Streaming
+  url: https://www.crowdcast.io/e/brainhack-ontario/1
 
-   name: Mattermost Channel
-   url: https://mattermost.brainhack.org/brainhack/channels/bhg2020-ontario
+- icon: mattermost
+  icon_pack: custom
+  name: Mattermost Channel
+  url: https://mattermost.brainhack.org/brainhack/channels/bhg2020-ontario
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

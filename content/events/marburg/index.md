@@ -46,8 +46,11 @@ links:
 #   icon_pack: fas
 #   name: Streaming
 #   url: https://meet.jit.si/bhg2020-ny
-   name: Mattermost Channel
-   url: https://mattermost.brainhack.org/brainhack/channels/brainhack-marburg
+
+- icon: mattermost
+  icon_pack: custom
+  name: Mattermost Channel
+  url: https://mattermost.brainhack.org/brainhack/channels/brainhack-marburg
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

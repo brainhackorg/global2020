@@ -47,7 +47,9 @@ links:
 #   name: Streaming
 #   url: 
 
- name: Mattermost Channel
+- icon: mattermost
+  icon_pack: custom
+  name: Mattermost Channel
   url: https://mattermost.brainhack.org/brainhack/channels/ brainhack-princeton
 
 # Projects (optional).
