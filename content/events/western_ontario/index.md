@@ -43,7 +43,7 @@ links:
   name: Follow
   url: https://twitter.com/BrainHackTO
 
-   icon_pack: fab
+  icon_pack: fab
   name: Follow
   url: https://twitter.com/BrainHackUWO
 
