@@ -28,494 +28,117 @@ events:
     dates: "From 2020-12-11 to 2020-12-13"
 
 
-  # - title: Brainhack Atlanta
-  #   organizers: 
-  #     - Yasmine Bassil
-  #   contact:
-  #     - yasminebassil@gatech.edu
-  #   website:
-  #   address: TReNDS center (the Center for Translational Research in Neuroimaging and Data Science) at Georgia State University, Atlanta, GA, USA
-  #   position:
-  #     lat: 33.7558754
-  #     lng: -84.3896796
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
-  #     - 2019-11-15
-  # - title: Brainhack Austin
-  #   organizers: 
-  #     - Cameron Craddock
-  #   contact:
-  #     - cameron.craddock@austin.utexas.edu
-  #   website: http://computational-neuroimaging-lab.org/
-  #   address: 1601 Trinity St, Austin, TX 78701, USA
-  #   position:
-  #     lat: 30.277313
-  #     lng: -97.734812
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
-  #     - 2019-11-15
-  #     - 2019-11-16
-  # - title: Brainhack Boston
-  #   organizers:
-  #     - Rudolph Pienaar
-  #     - Ai Wern Chung
-  #   contact:
-  #     - rudolph.pienaar@childrens.harvard.edu
-  #     - aiwern.chung@childrens.harvard.edu
-  #   website: http://fnndsc.childrens.harvard.edu/brainhack2019
-  #   address: Boston Children's Hospital, 300 Longwood Ave, Boston, MA 02115, USA
-  #   position:
-  #     lat: 42.337462
-  #     lng: -71.105686
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
-  # - title: Brainhack Oxbridge
-  #   organizers: 
-  #     - Lena Dorfschmidt
-  #     - Jakub Vohryzek
-  #   contact:
-  #     - oxbridgebrainhack@gmail.com
-  #   website: https://oxbridgebrainhack.github.io/
-  #   address: Cambridge, UK
-  #   position:
-  #     lat: 52.1732704
-  #     lng: 0.139658
-  #   dates:
-  #     - 2019-11-14
-  #     - 2019-11-15
-  #     - 2019-11-16
-
-  # - title: Brainhack Dallas
-  #   organizers:
-  #     - Ekarin Pongpipat
-  #     - Ju-Chi Yu
-  #     - Mattew Kmiecik
-  #     - David Hoagey
-  #     - Micaela Chan
-  #   contact:
-  #     - ekarin.pongpipat@utdallas.edu
-  #     - ju-chi.yu@utdallas.edu
-  #     - matthew.kmiecik@utdallas.edu
-  #     - david.hoagey@utdallas.edu
-  #     - mchan@utdallas.edu
-  #   website: https://brainhack-dallas.github.io/mini-brainhack-utd/
-  #   address:  The University of Texas at Dallas, 800 W Campbell Rd, Richardson, TX 75080, USA
-  #   position:
-  #     lat: 32.985986
-  #     lng: -96.749828
-  #   dates:
-  #     - 2019-11-16
-  #     - 2019-11-17
+  - title: Brainhack Marburg
+    organizers: 
+      - Lydia Riedl
+    contact:
+      - riedll@staff.uni-marburg.de
+    website:
+    address: Philipps-University Marburg, University of Marburg, Germany
+    position:
+      lat: 50.810624
+      lng: 8.774465
+    dates: "From 2020-11-30 to 2020-12-11"
 
 
-  # - title: Brainhack Eugene 
-  #   organizers:
-  #     - Kate Mills
-  #     - Dani Cosme
-  #     - Lucy Whitmore
-  #   contact:
-  #     - klmills@uoregon.edu
-  #     - dcosme@uoregon.edu
-  #     - lwhitmor@uoregon.edu
-  #   website: https://brainhack-eugene.github.io
-  #   address: University of Oregon, Eugene, OR, USA
-  #   position:
-  #     lat: 44.044834
-  #     lng: -123.0747995
-  #   dates:
-  #     - 2019-11-15
-  #     - 2019-11-16
-  #     - 2019-11-17
+  - title: Brainhack Ankara
+    organizers: 
+      - 
+    contact:
+      - 
+    website: 
+    address: Middle East Technical University, Ankara, Turkey
+    position:
+      lat: 39.889962
+      lng: 32.780096
+    dates: "From 2020-11-30 to 2020-12-06"
+    
+  - title: Brainhack Pittsburg
+    organizers:
+      - 
+      - 
+    contact:
+      
+    website: 
+    address: Machine learning, INformatics and Data Science (MINDS) Lab, University of Pittsburg, Pittsburg, USA
+    position:
+      lat: 40.444263
+      lng: -79.960921
+    dates: "From 2020-11-30 to 2020-12-04"
 
-  # - title: Brainhack Geneva 
-  #   organizers: 
-  #     - Michael Dayan
-  #   contact:
-  #     - michael.dayan@fcbg.ch
-  #   website: https://brainhack.ch
-  #   address: Campus Biotech, Geneva, Switzerland
-  #   position:
-  #     lat: 46.222236
-  #     lng: 6.148296
-  #   dates:
-  #     - 2019-11-07
-  #     - 2019-11-08
-  #     - 2019-11-09
+  - title: Brainhack Beijing & Nanning
+    organizers: 
+    contact:
+    website: 
+    address: Beijing Normal University and Institute of Psychology, Chinese Academy of Sciences, Nanning, Beijing, China
+    position:
+      lat: 39.987388
+      lng: 116.321344
+    dates: "From 2020-12-12 to 2020-12-18"
 
-  # - title: Brainhack Lisbon
-  #   organizers:
-  #     - Julia Huntenburg
-  #     - Tiago Quendera
-  #   contact:
-  #     - julia.huntenburg@research.fchampalimaud.org
-  #     - tiago.quendera@neuro.fchampalimaud.org
-  #   website: https://bh-lisbon.github.io/
-  #   address: Champalimaud Foundation, Av. Brasília, 1400-038 Lisboa, Portugal
-  #   position:
-  #     lat: 38.693563
-  #     lng: -9.221530
-  #   dates:
 
-  # - title: Brainhack London Canada
-  #   organizers: 
-  #     - Ali Khan
-  #     - Marieke Mur
-  #     - Olivia Stanley
-  #     - Jason Kai
-  #     - Suzanne Witt
-  #     - Kasey Van Hedger
-  #     - Aysha Motala
-  #     - Geoffrey Ngo
-  #     - Emma Stewart
-  #     - Justine Clery
-  #     - Claire Park
-  #     - Dimuthu Hemachandra
-  #   contact:
-  #     - brainhack.western@gmail.com
-  #   website: https://brainhackwestern.github.io/
-  #   address: Western Science Centre, Laureen O. Paterson Building, Western University, London, ON, Canada
-  #   position:
-  #     lat: 43.0099736
-  #     lng: -81.2736388
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
-  #     - 2019-11-15
+  - title: Brainhack Avoca
+    organizers:  
+    contact:
+    website: 
+    address: The University of Sydney, Sydney, Australia
+    position:
+      lat: -33.887949
+      lng: 151.187092
+    dates: "From 2020-12-01 to 2020-12-03"
 
-  # - title: Brainhack Marburg
-  #   organizers:
-  #     - Lydia Riedl
-  #   contact:
-  #     - riedll@staff.uni-marburg.de
-  #   website:
-  #   address: Marburg, Hessen, Germany
-  #   position:
-  #     lat: 50.8066021
-  #     lng: 8.7632194
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
-  #     - 2019-11-15
+    
+  - title: Brainhack Princeton
+    organizers:  
+    contact:
+    website: 
+    address: Princeton University, Princeton, USA
+    position:
+      lat: 40.343738
+      lng: -74.654348
+    dates: "From 2020-12-09 to 2020-12-11"
 
-  # - title: Brainhack Marseille
-  #   organizers:
-  #     - Sylvain Takerkart
-  #     - David Meunier
-  #     - Bastien Cagna
-  #   contact:
-  #     - sylvain.takerkart@univ-amu.fr
-  #     - david.meunier@univ-amu.fr
-  #     - bastien.cagna@univ-amu.fr
-  #   website: https://brainhack_marseille.frama.io/ref2019
-  #   address: Institut de Neurosciences de la Timone, Faculté de Médecine, 27 Boulevard Jean Moulin, 13005 Marseille, France
-  #   position:
-  #     lat: 43.287051
-  #     lng: 5.403467
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
 
-  # - title: Brainhack Montreal 
-  #   organizers: 
-  #     - Tristan Glatard
-  #     - Claudine Gauthier
-  #     - Christophe Grova
-  #     - Chris Steele
-  #   contact:
-  #     - tristan.glatard@concordia.ca
-  #     - claudine.gauthier@concordia.ca
-  #   website:
-  #   address: 1455 Boulevard de Maisonneuve O, Montréal, QC H3G 1M8, Canada
-  #   position:
-  #     lat: 45.494775
-  #     lng: -73.577463
-  #   dates:
-  #     - 2019-12-04
-  #     - 2019-12-05
-  #     - 2019-12-06
+  - title: Brainhack Ontario
+    organizers:
+    contact:
+    website: 
+    address: University of Toronto / Centre for Addiction and Mental Health, Toronto, Ontario, Canada
+    position:
+      lat: 43.657027
+      lng: -79.389327
+    dates: "From 2020-12-02 to 2020-12-04"
 
-  # - title: Brainhack Nanning
-  #   organizers:
-  #     - Xinian Zuo
-  #     - Zhixiong Yan
-  #   contact:
-  #     - zuoxn@nnnu.edu.cn
-  #     - yanzx@nnnu.edu.cn
-  #   website: 
-  #   address: Nanning Normal University, 45 Hengyang E Rd, Xixiangtang, Nanning, Guangxi, China
-  #   position:
-  #     lat: 22.841014
-  #     lng: 108.320042
-  #   dates:
-  #     - 2019-12-15
 
-  # - title: Brainhack New Haven
-  #   organizers:
-  #     - Dave O'Connor
-  #     - Stephanie Noble
-  #   contact:
-  #     - dave.oconnor@yale.edu
-  #     - stephanie.noble@yale.edu
-  #   website: 
-  #   address: Yale University, New Haven, CT, USA
-  #   position:
-  #     lat: 41.3163244
-  #     lng: -72.9223431
-  #   dates:
-  #     - 2019-11-14
-  #     - 2019-11-15
+    
+  - title: Brainhack Marseille
+    organizers:
+    contact:
+    website: 
+    address: INT, CNRS-AMU, Marseille, France
+    position:
+      lat: 43.293783
+      lng: 5.358004
+    dates: "From 2020-12-02 to 2020-12-04"
 
-  # - title: Brainhack Princeton
-  #   organizers:
-  #     - Anne Mennen
-  #     - Sam Nastase
-  #     - Elizabeth McDevitt
-  #     - Karina Tachihara
-  #   contact:
-  #     - sam.nastase@gmail.com
-  #   website: https://brainhack-princeton.github.io
-  #   address: Princeton Neuroscience Institute and Peretsman Scully Hall, Princeton University, Princeton, NJ, USA
-  #   position:
-  #     lat: 40.3434412
-  #     lng: -74.6544729
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
-  #     - 2019-11-15
-  #     - 2019-11-16
+        
+  - title: Brainhack Zagreb
+    organizers:
+    contact:
+    website: 
+    address: Medical Doctor at the Croatian Institute for Emergency Medicine, Zagreb, Crotia
+    position:
+      lat: 45.809500
+      lng: 16.012705
+    dates: "On 2020-12"
 
-  # - title: Brainhack NYC
-  #   organizers:
-  #     - Steven Giavasis
-  #     - Lindsay Alexander
-  #   contact:
-  #     - steven.giavasis@childmind.org
-  #     - lindsay.alexander@childmind.org
-  #   website: https://nyc2019brainhack.github.io/
-  #   address: Child Mind Institute, 101 E 56th St, New York City, NY 10022, USA
-  #   position:
-  #     lat: 40.760920
-  #     lng: -73.970801
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
-  #     - 2019-11-15
-
-  # - title: Brainhack Padova
-  #   organizers:
-  #     - Michel Thiebaut de Schotten
-  #     - Patrick Friedrich
-  #   contact:
-  #     - michel.thiebaut@gmail.com
-  #     - patrick.friedrich@rub.de
-  #   website: http://www.bcblab.com
-  #   address: Padova, Italy
-  #   position:
-  #     lat: 45.4121758
-  #     lng: 11.865474
-  #   dates:
-  #     - 2019-11-12
-  #     - 2019-11-13
-  #     - 2019-11-14
-  #     - 2019-11-15
-
-  # - title: Brainhack Porto Alegre 
-  #   organizers:
-  #     - Laura A. Tomaz Da Silva
-  #     - Felipe Meneguzzi
-  #     - Augusto Buchweitz
-  #     - Nathalia Bianchini Esper
-  #     - Matheus Marcon
-  #   contact:
-  #     - laura.angelica@acad.pucrs.br
-  #     - felipe.meneguzzi@pucrs.br
-  #     - augusto.buchweitz@pucrs.br 
-  #     - nathalia.esper@pucrs.br
-  #     - matheus.marcon@edu.pucrs.br
-  #   website: https://brainhack-poa.github.io/brainhack-poa-2019/
-  #   address: AGES @ building 32, Av Ipiranga, 6681, Porto Alegre, Brazil
-  #   position:
-  #     lat: -30.061142
-  #     lng: -51.173792
-  #   dates:
-  #     - 2019-10-03
-  #     - 2019-10-04
-
-  # - title: Brainhack Rennes
-  #   organizers:
-  #     - Julie Coloigner
-  #   contact:
-  #     - julie.coloigner@irisa.fr
-  #   website: https://brainhack.irisa.fr
-  #   address: IRISA/Inria Rennes, Campus de Beaulieu 35000 Rennes, Bretagne, France
-  #   position:
-  #     lat: 48.1151893
-  #     lng: -1.6431373
-  #   dates:
-  #     - 2019-11-14
-  #     - 2019-11-15
-
-  # - title: Brainhack San Francisco
-  #   organizers:
-  #     - Valentina Borghesani
-  #     - Maria Luisa Mandelli
-  #   contact:
-  #     - valentina.borghesani@ucsf.edu
-  #     - marialuisa.mandelli@ucsf.edu
-  #   website: https://sfbrainhack.github.io/
-  #   address: University of California, San Francisco, CA, USA
-  #   position:
-  #     lat: 37.7659451
-  #     lng: -122.4759528
-  #   dates:
-  #     - 2019-11-14
-  #     - 2019-11-15
-
-  # - title: Brainhack Seattle
-  #   organizers:
-  #     - Ariel Rokem
-  #   contact:
-  #     - arokem@gmail.com
-  #   website:
-  #   address: The University of Washington, Seattle, WA, USA
-  #   position:
-  #     lat: 47.653844
-  #     lng: -122.307810
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
-
-  # - title: Brainhack Shanghai
-  #   organizers:
-  #     - Deniz Vatansever
-  #     - Wei Cheng 
-  #   contact:
-  #     - deniz@fudan.edu.cn
-  #     - wcheng.fdu@gmail.com
-  #   website: 
-  #   address: Institute of Science and Technology for Brain-inspired Intelligence, 220 Handan Rd, Wu Jiao Chang, Yangpu, Shanghai, China
-  #   position:
-  #     lat: 31.297603
-  #     lng: 121.503661
-  #   dates:
-  #     - 2019-11-15
-  #     - 2019-11-16
-
-  # - title: Brainhack Toronto
-  #   organizers: 
-  #     - Erin Dickie
-  #     - Sean Hill
-  #   contact:
-  #     - erin.w.dickie@gmail.com
-  #     - sean.hill@camh.ca
-  #   website: https://brainhackto.github.io/Global-Toronto-11-2019/
-  #   address: Krembil Centre for Neuroinformatics, Center for Addiction and Mental Health, Toronto, ON, Canada
-  #   position:
-  #     lat: 43.654333 
-  #     lng: -79.405053
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
-  #     - 2019-11-15
-
-  # - title: Brainhack Toruń
-  #   organizers: 
-  #     - Karolina Finc
-  #   contact:
-  #     - karolinafinc@gmail.com
-  #   website: 
-  #   address: Centre for Modern Interdisciplinary Technologies, Nicolaus Copernicus University, Jurija Gagarina 11, 87-100 Toruń, Poland
-  #   position:
-  #     lat: 53.019557
-  #     lng: 18.571189
-  #   dates:
-  #     - 2019-11-16
-  #     - 2019-11-17
-
-  # - title: Brainhack Utrecht
-  #   organizers:
-  #     - Drosoula Tsangaratou
-  #     - Charl Linssen
-  #     - Anastasia Osoianu
-  #   contact:
-  #     - brainhacksynergy@gmail.com
-  #   website: https://brainhacksynergy.github.io/
-  #   address: Utrecht and The Hague, The Netherlands 
-  #   position:
-  #     lat: 52.0833341
-  #     lng: 5.1454323
-  #   dates:
-  #     - 2019-11-13
-  #     - 2019-11-14
-  #     - 2019-11-15
-  #     - 2019-11-16
-
-  # - title: Brainhack Vienna 
-  #   organizers: 
-  #     - Georg Langs
-  #     - Ernst Schwartz
-  #     - Karl-Heinz Nenning
-  #     - Roxane Licandro
-  #   contact:
-  #     -  brainhack.vienna@gmail.com
-  #   website: https://brainhack-vienna.github.io/
-  #   address: Josefstädter Str. 39, 1080 Wien, Austria
-  #   position:
-  #     lat: 48.209390
-  #     lng: 16.348283
-  #   dates:
-  #     - 2019-12-11
-  #     - 2019-12-12
-  #     - 2019-12-13
-
-  # - title: Brainhack Washington, DC
-  #   organizers:
-  #     - Shawn Rhoads
-  #     - Junaid Merchant
-  #   contact:
-  #     - sr1209@georgetown.edu
-  #     - jmerch@terpmail.umd.edu
-  #   website: https://brainhackdc.github.io/BrainHackDC2019/
-  #   address: White-Gravenor Hall, Georgetown University, Washington, DC 20007, USA
-  #   position:
-  #     lat: 38.909011
-  #     lng: -77.072286
-  #   dates:
-  #     - 2019-11-16
-  #     - 2019-11-17
-
-  # - title: Brainhack Zagreb
-  #   organizers:
-  #     - Andrija Stajduhar
-  #     - Tomislav Lipic
-  #     - Jaksa Vukojevic
-  #   contact:
-  #     - brainhackzg@gmail.com
-  #   website: https://brainhackzg.github.io/
-  #   address: Five, Heinzelova ul. 33, Zagreb, Croatia
-  #   position:
-  #     lat: 45.810946
-  #     lng: 16.001664
-  #   dates:
-  #     - 2019-11-16
-  #     - 2019-11-17
-
-  # - title: Brainhack Zurich 
-  #   organizers: 
-  #     - Alessandro Crimi
-  #     - Martyna Plomecka
-  #     - Christian Horea
-  #   contact:
-  #     - alessandro.crimi@uzh.ch
-  #     - ioanas@biomed.ee.ethz.ch
-  #   website: http://www.brainhackzurich.ch/
-  #   address: TGIM Co-working, Löwenstrasse 17, 8001 Zürich, Switzerland
-  #   position:
-  #     lat: 47.374061
-  #     lng: 8.535003
-  #   dates:
-  #     - 2019-10-03
-  #     - 2019-10-04
+        
+  - title: Brainhack DC
+    organizers:
+    contact:
+    website: 
+    address: Georgetown University, DC, USA
+    position:
+      lat: 38.911754
+      lng: -77.075085
+    dates: "From 2020-12-12 to 2020-12-13"
