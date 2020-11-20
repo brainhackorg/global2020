@@ -26,13 +26,13 @@
                 <div class="shop-container d-flex flex-column flex-nowrap align-content-start px-md-0">
                 {{ range sort $shops.events "title" "asc" }}
                     {{/*  {{ if .shopActive }}  */}}
-                        <div class="sItem flex-grow-0 px-0 py-2 p-md-2" data-name="{{ .title }}" data-add="{{ .address }}" data-plz="{{ .organizers }}" data-cty="{{ .shopCountry }}" data-lat="{{ .position.lat }}" data-lon="{{ .position.lng }}">
+                        <div class="sItem flex-grow-0 px-0 py-2 p-md-2" data-name="{{ .title }}" data-add="{{ .address }}" data-cty="{{ .shopCountry }}" data-lat="{{ .position.lat }}" data-lon="{{ .position.lng }}">
                             <div class="sItem--offline rounded-lg shadow-sm px-3 py-2">
                                 <h5 class="h6 mb-0">{{ .title }}</h5>
                                 {{/*  <p class="small mt-1 mb-0 text-muted">{{ range .dates }}{{ dateFormat "Monday, Jan 2, 2006" . }}<br {{end}}</p>  */}}
                                 <p class="small mt-1 mb-0 text-muted">{{ .dates }}</p>
 
-                                <p class="small mt-1 mb-0">Organized by: {{ delimit .organizers ", " }}</p>
+                                <p class="small mt-1 mb-0">Organized by: </p>
                                 {{ with .website }}<a href="{{.}}">Website - </a>{{end}}{{ if .contact }}<a href="mailto:{{ range .contact | first 1}} {{.}}{{end}}">Contact</a>{{end}} - {{ with .contact }}<a href=#>Projects</a>{{end}}
                             </div>
                         </div>

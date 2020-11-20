@@ -42,8 +42,6 @@ events:
 
 
   - title: Brainhack Ankara
-    organizers: 
-      - 
     contact:
       - 
     website: 
@@ -54,9 +52,6 @@ events:
     dates: "From 2020-11-30 to 2020-12-06"
     
   - title: Brainhack Pittsburg
-    organizers:
-      - 
-      - 
     contact:
       
     website: 
@@ -67,7 +62,6 @@ events:
     dates: "From 2020-11-30 to 2020-12-04"
 
   - title: Brainhack Beijing & Nanning
-    organizers: 
     contact:
     website: 
     address: Beijing Normal University and Institute of Psychology, Chinese Academy of Sciences, Nanning, Beijing, China
@@ -78,7 +72,6 @@ events:
 
 
   - title: Brainhack Avoca
-    organizers:  
     contact:
     website: 
     address: The University of Sydney, Sydney, Australia
@@ -89,7 +82,6 @@ events:
 
     
   - title: Brainhack Princeton
-    organizers:  
     contact:
     website: 
     address: Princeton University, Princeton, USA
@@ -100,7 +92,6 @@ events:
 
 
   - title: Brainhack Ontario
-    organizers:
     contact:
     website: 
     address: University of Toronto / Centre for Addiction and Mental Health, Toronto, Ontario, Canada
@@ -112,7 +103,6 @@ events:
 
     
   - title: Brainhack Marseille
-    organizers:
     contact:
     website: 
     address: INT, CNRS-AMU, Marseille, France
@@ -123,7 +113,6 @@ events:
 
         
   - title: Brainhack Zagreb
-    organizers:
     contact:
     website: 
     address: Medical Doctor at the Croatian Institute for Emergency Medicine, Zagreb, Crotia
@@ -134,7 +123,6 @@ events:
 
         
   - title: Brainhack DC
-    organizers:
     contact:
     website: 
     address: Georgetown University, DC, USA
