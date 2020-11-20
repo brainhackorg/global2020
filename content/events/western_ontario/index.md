@@ -47,7 +47,7 @@ links:
   name: Follow
   url: https://twitter.com/BrainHackUWO
 
-  - icon: video
+- icon: video
   icon_pack: fas
   name: Streaming
   url: https://www.crowdcast.io/e/brainhack-ontario/1
