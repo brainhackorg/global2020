@@ -33,7 +33,7 @@ events:
       - Lydia Riedl
     contact:
       - riedll@staff.uni-marburg.de
-    website:
+    website: https://brainhack-marburg.github.io/
     address: Philipps-University Marburg, University of Marburg, Germany
     position:
       lat: 50.810624
@@ -42,19 +42,21 @@ events:
 
 
   - title: Brainhack Ankara
-    contact:
-      - 
-    website: 
+    organizers: 
+    contact: 
+     - atay.m.selim@gmail.com
+    website: https://brainhack.ankara.github.io
     address: Middle East Technical University, Ankara, Turkey
     position:
       lat: 39.889962
       lng: 32.780096
     dates: "From 2020-11-30 to 2020-12-06"
     
-  - title: Brainhack Pittsburg
-    contact:
-      
-    website: 
+  - title: Brainhack DeBurghing
+    organizers:
+    contact:  
+     - raamanap@pitt.edu
+    website: https://pitt-brainhack.github.io/DeBurghing2020/
     address: Machine learning, INformatics and Data Science (MINDS) Lab, University of Pittsburg, Pittsburg, USA
     position:
       lat: 40.444263
@@ -63,7 +65,8 @@ events:
 
   - title: Brainhack Beijing & Nanning
     contact:
-    website: 
+     -  xinian.zuo@bnu.edu.cn
+    website: https://brainhack.live/
     address: Beijing Normal University and Institute of Psychology, Chinese Academy of Sciences, Nanning, Beijing, China
     position:
       lat: 39.987388
@@ -72,7 +75,10 @@ events:
 
 
   - title: Brainhack Avoca
-    contact:
+
+    organizers:  
+    contact: 
+     - mac.shine@sydney.edu.au
     website: 
     address: The University of Sydney, Sydney, Australia
     position:
@@ -82,8 +88,10 @@ events:
 
     
   - title: Brainhack Princeton
-    contact:
-    website: 
+    organizers:  
+    contact: 
+     - emcdevitt8287@gmail.com
+    website: https://brainhack-princeton.github.io/2020/
     address: Princeton University, Princeton, USA
     position:
       lat: 40.343738
@@ -92,8 +100,10 @@ events:
 
 
   - title: Brainhack Ontario
-    contact:
-    website: 
+    organizers:
+    contact: 
+     - erin.w.dickie@gmail.com
+    website: https://brainhackto.github.io/global-ON-2020/
     address: University of Toronto / Centre for Addiction and Mental Health, Toronto, Ontario, Canada
     position:
       lat: 43.657027
@@ -103,8 +113,10 @@ events:
 
     
   - title: Brainhack Marseille
-    contact:
-    website: 
+    organizers:
+    contact: 
+     - sylvain.takerkart@univ-amu.fr
+    website: https://brainhack-marseille.github.io/
     address: INT, CNRS-AMU, Marseille, France
     position:
       lat: 43.293783
@@ -113,8 +125,10 @@ events:
 
         
   - title: Brainhack Zagreb
-    contact:
-    website: 
+    organizers:
+    contact: 
+     - saskia.mueller@hotmail.com
+    website: https://brainhackzg.github.io/
     address: Medical Doctor at the Croatian Institute for Emergency Medicine, Zagreb, Crotia
     position:
       lat: 45.809500
@@ -123,10 +137,37 @@ events:
 
         
   - title: Brainhack DC
-    contact:
-    website: 
+    organizers:
+    contact: 
+     - sr1209@georgetown.edu
+    website: https://brainhackdc.github.io/2020/
     address: Georgetown University, DC, USA
     position:
       lat: 38.911754
       lng: -77.075085
     dates: "From 2020-12-12 to 2020-12-13"
+
+        
+  - title: Brainhack M2M
+    organizers:
+    contact: 
+     - ingmatteomancini@gmail.com
+    website: 
+    address: Somewhere on Earth
+    position:
+      lat: 52.975647
+      lng: -36.409980
+    dates: "From 2021-01-26 to 2021-01-29"
+
+
+
+  - title: Brainhack Padova
+    organizers:
+    contact: 
+     - poggiali.davide@gmail.com
+    website: https://pnc.unipd.it/brainhack2020/
+    address: Padova, Province of Padua, Italy
+    position:
+      lat: 45.41684600730548 
+      lng: 11.860687749879997
+    dates: "From 2020-12-14 to 2020-12-16"
