@@ -43,10 +43,9 @@ events:
 
   - title: Brainhack Ankara
     organizers: 
-      - 
-    contact: atay.m.selim@gmail.com
-      - 
-    website: 
+    contact: 
+     - atay.m.selim@gmail.com
+    website: https://brainhack.ankara.github.io
     address: Middle East Technical University, Ankara, Turkey
     position:
       lat: 39.889962
@@ -55,7 +54,8 @@ events:
     
   - title: Brainhack DeBurghing
     organizers:
-    contact: raamanap@pitt.edu
+    contact:  
+     - raamanap@pitt.edu
     website: https://pitt-brainhack.github.io/DeBurghing2020/
     address: Machine learning, INformatics and Data Science (MINDS) Lab, University of Pittsburg, Pittsburg, USA
     position:
@@ -65,7 +65,8 @@ events:
 
   - title: Brainhack Beijing & Nanning
     organizers: 
-    contact: xinian.zuo@bnu.edu.cn
+    contact:
+     -  xinian.zuo@bnu.edu.cn
     website: https://brainhack.live/
     address: Beijing Normal University and Institute of Psychology, Chinese Academy of Sciences, Nanning, Beijing, China
     position:
@@ -76,7 +77,8 @@ events:
 
   - title: Brainhack Avoca
     organizers:  
-    contact: mac.shine@sydney.edu.au
+    contact: 
+     - mac.shine@sydney.edu.au
     website: 
     address: The University of Sydney, Sydney, Australia
     position:
@@ -87,7 +89,8 @@ events:
     
   - title: Brainhack Princeton
     organizers:  
-    contact: emcdevitt8287@gmail.com
+    contact: 
+     - emcdevitt8287@gmail.com
     website: https://brainhack-princeton.github.io/2020/
     address: Princeton University, Princeton, USA
     position:
@@ -98,7 +101,8 @@ events:
 
   - title: Brainhack Ontario
     organizers:
-    contact: erin.w.dickie@gmail.com
+    contact: 
+     - erin.w.dickie@gmail.com
     website: https://brainhackto.github.io/global-ON-2020/
     address: University of Toronto / Centre for Addiction and Mental Health, Toronto, Ontario, Canada
     position:
@@ -110,7 +114,8 @@ events:
     
   - title: Brainhack Marseille
     organizers:
-    contact: sylvain.takerkart@univ-amu.fr
+    contact: 
+     - sylvain.takerkart@univ-amu.fr
     website: https://brainhack-marseille.github.io/
     address: INT, CNRS-AMU, Marseille, France
     position:
@@ -121,7 +126,8 @@ events:
         
   - title: Brainhack Zagreb
     organizers:
-    contact: saskia.mueller@hotmail.com
+    contact: 
+     - saskia.mueller@hotmail.com
     website: https://brainhackzg.github.io/
     address: Medical Doctor at the Croatian Institute for Emergency Medicine, Zagreb, Crotia
     position:
@@ -132,7 +138,8 @@ events:
         
   - title: Brainhack DC
     organizers:
-    contact: sr1209@georgetown.edu
+    contact: 
+     - sr1209@georgetown.edu
     website: https://brainhackdc.github.io/2020/
     address: Georgetown University, DC, USA
     position:
@@ -143,7 +150,8 @@ events:
         
   - title: Brainhack M2M
     organizers:
-    contact: ingmatteomancini@gmail.com
+    contact: 
+     - ingmatteomancini@gmail.com
     website: 
     address: Somewhere on Earth
     position:
@@ -155,7 +163,8 @@ events:
 
   - title: Brainhack Padova
     organizers:
-    contact: poggiali.davide@gmail.com
+    contact: 
+     - poggiali.davide@gmail.com
     website: https://pnc.unipd.it/brainhack2020/
     address: Padova, Province of Padua, Italy
     position:
