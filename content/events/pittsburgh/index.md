@@ -1,6 +1,6 @@
 ---
-title: Brainhack DeBurghing 
-event: Brainhack DeBurghing 
+title: DeBurghing - the Pitt BrainHack 
+event: DeBurghing - the Pitt BrainHack
 event_url: https://pitt-brainhack.github.io/DeBurghing2020/
 
 location: Somewhere on the planet
@@ -43,6 +43,11 @@ links:
   name: Follow
   url:  https://twitter.com/DeBurghing
 
+- icon: mattermost
+  icon_pack: custom
+  name: Mattermost Channel
+  url: https://mattermost.brainhack.org/brainhack/channels/brainhack-pitt
+  
 # Projects (optional).
 #   Associate this post with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
@@ -54,4 +59,7 @@ projects:
 # Enable math on this page?
 math: true
 ---
-The Pittsburgh BrianHack with an exciting talks and tutorials on machine learning, deconfounding and tutorials on HPC!
+[The Open MINDS Lab](openmindslab.com)) @ Pitt organizes an amazing and week long Pittsburgh BrianHack event which includes
+exciting talks and tutorials on machine learning, deconfounding and tutorials on HPC! 
+Join our event by filling our
+[registration form](https://docs.google.com/forms/d/e/1FAIpQLSeA0jMyn3OU_x_ezRR7-eaoxV6YvehpbEAD3V5PZoeWD7zlsw/viewform?usp=send_form)

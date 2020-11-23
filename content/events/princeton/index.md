@@ -50,7 +50,7 @@ links:
 - icon: mattermost
   icon_pack: custom
   name: Mattermost Channel
-  url: https://mattermost.brainhack.org/brainhack/channels/ brainhack-princeton
+  url: https://mattermost.brainhack.org/brainhack/channels/brainhack-princeton
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
