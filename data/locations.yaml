@@ -64,7 +64,6 @@ events:
     dates: "From 2020-11-30 to 2020-12-04"
 
   - title: Brainhack Beijing & Nanning
-    organizers: 
     contact:
      -  xinian.zuo@bnu.edu.cn
     website: https://brainhack.live/
@@ -76,6 +75,7 @@ events:
 
 
   - title: Brainhack Avoca
+
     organizers:  
     contact: 
      - mac.shine@sydney.edu.au
