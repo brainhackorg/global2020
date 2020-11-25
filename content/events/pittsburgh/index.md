@@ -1,6 +1,6 @@
 ---
-title: DeBurghing - the Pitt BrainHack 
-event: DeBurghing - the Pitt BrainHack
+title: Brainhack Pittsburgh
+event: Brainhack Pittsburgh
 event_url: https://pitt-brainhack.github.io/DeBurghing2020/
 
 location: Somewhere on the planet
@@ -30,7 +30,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Brainhack DeBurghing**]( https://pitt-brainhack.github.io/DeBurghing2020/)'
+  caption: 'Image credit: [**Brainhack Pittsburgh**]( https://pitt-brainhack.github.io/DeBurghing2020/)'
   focal_point: center
 
 links:
