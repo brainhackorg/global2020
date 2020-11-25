@@ -74,3 +74,5 @@ Join us on December 2nd to 4th over Chrowdcast for a completely free event focus
 accessible way across disciplines and experience levels including hacking, education, panels, and networking. Even though we will be physically distant, 
 there will be the possibility to come together and socialize on the Brainhack Ontario GatherTown platform. We will be using the platform to host exciting
  social activities throughout the event. Stay tuned for the social activities program!
+
+<iframe src="https://calendar.google.com/calendar/embed?src=0trncdoj3ac3rsavmm9s580n6c%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
