@@ -74,4 +74,8 @@ math: true
 
 Second edition of Brainhack Marseille
 
+
+The time schedule at this particular calendar is set to the time zone of this particular event location. 
+Please take the time zone differences into consideration or use this [time converter](https://www.thetimezoneconverter.com/) 
+for converting the time into your own time zone to avoid any confusion. 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FParis&amp;src=YnJhaW5oYWNrLm1hcnNlaWxsZUBnbWFpbC5jb20&amp;color=%23039BE5&amp;mode=AGENDA&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTitle=0" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
