@@ -48,7 +48,7 @@ links:
 #   url: https://meet.jit.si/bhg2020-donostia
 
 
-icon: mattermost
+- icon: mattermost
   icon_pack: custom
   name: Mattermost Channel
   url: https://mattermost.brainhack.org/brainhack/channels/bhg-washingtondc
