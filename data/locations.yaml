@@ -50,7 +50,7 @@ events:
     position:
       lat: 39.889962
       lng: 32.780096
-    dates: "From 2020-11-30 to 2020-12-06"
+    dates: "From 2020-12-01 to 2020-12-03"
     
   - title: Brainhack Pittsburgh
     organizers:
