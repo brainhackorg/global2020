@@ -26,7 +26,7 @@ jobs:
       with:
         branch: publish-project
         commit-message: Convert issues to project pages, yay!
-        assignees: SamGuay
+        assignees: SamGuay, complexbrains
     - name: Check outputs
       run: |
         echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
