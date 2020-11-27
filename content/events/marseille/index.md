@@ -40,9 +40,9 @@ links:
   url: https://brainhack-marseille.github.io/
 
 - icon: twitter
- icon_pack: fab
- name: Follow
- url: https://twitter.com/BrainhackM
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/BrainhackM
 
 #  icon_pack: fab
 # name: Follow

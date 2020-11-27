@@ -40,9 +40,9 @@ links:
   url: https://brainhack-ankara.github.io/
 
 - icon: twitter
- icon_pack: fab
- name: Follow
- url: https://twitter.com/BH_Ankara
+  icon_pack: fab
+  name: Follow
+  url: https://twitter.com/BH_Ankara
 # - icon: video
 #   icon_pack: fas
 #   name: Streaming
