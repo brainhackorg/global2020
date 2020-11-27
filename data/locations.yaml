@@ -45,12 +45,12 @@ events:
     organizers: 
     contact: 
      - atay.m.selim@gmail.com
-    website: https://brainhack.ankara.github.io
+    website: https://brainhack-ankara.github.io/ 
     address: Middle East Technical University, Ankara, Turkey
     position:
       lat: 39.889962
       lng: 32.780096
-    dates: "From 2020-11-30 to 2020-12-06"
+    dates: "From 2020-12-01 to 2020-12-03"
     
   - title: Brainhack Pittsburgh
     organizers:

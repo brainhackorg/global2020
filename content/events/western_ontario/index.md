@@ -75,4 +75,8 @@ accessible way across disciplines and experience levels including hacking, educa
 there will be the possibility to come together and socialize on the Brainhack Ontario GatherTown platform. We will be using the platform to host exciting
  social activities throughout the event. Stay tuned for the social activities program!
 
+
+The time schedule at this particular calendar is set to the time zone of this particular event location. 
+Please take the time zone differences into consideration or use this [time converter](https://www.thetimezoneconverter.com/) 
+for converting the time into your own time zone to avoid any confusion. 
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23616161&ctz=America%2FToronto&src=MHRybmNkb2ozYWMzcnNhdm1tOXM1ODBuNmNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ODJtZnVkNHNuZWVhYTk5MWI1cXB1MXJtNTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=bmlsZWFybi5ldmVudHNAZ21haWwuY29t&color=%23E4C441&color=%23E67C73&color=%23F6BF26&mode=AGENDA&showNav=0&showTitle=0&showTabs=0&showDate=0&showPrint=0" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
