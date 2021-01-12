@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "**Brainhack Global 2020 <br> finished withanother memorable <br> and successful series of events!**"
+title = "**Brainhack Global 2020 <br> finished with <br> a series of <br> successful events!**"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media = "headers/brain.png"
@@ -57,7 +57,7 @@ hero_media = "headers/brain.png"
 
 <br>
 
-## **November 30th - December 18th 2020**
+## **November 30th - December 18th**
 
 <br>
 <br>
