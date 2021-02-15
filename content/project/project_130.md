@@ -6,6 +6,11 @@
   "link_to_issue": "https://github.com/brainhackorg/global2020/issues/130",
   "labels": [
     {
+      "name": "bhg:mtl_can_1",
+      "description": "",
+      "color": "d4c5f9"
+    },
+    {
       "name": "git_skills:0_none",
       "description": "",
       "color": "bfdadc"
