@@ -6,9 +6,39 @@
   "link_to_issue": "https://github.com/brainhackorg/global2020/issues/37",
   "labels": [
     {
-      "name": "bhg:donostia_esp_1",
+      "name": "project",
       "description": "",
-      "color": "d4c5f9"
+      "color": "f9bc70"
+    },
+    {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
+    },
+    {
+      "name": "topic:connectome",
+      "description": "",
+      "color": "006b75"
+    },
+    {
+      "name": "modality:fNIRS",
+      "description": "",
+      "color": "1d76db"
+    },
+    {
+      "name": "tools:SPM",
+      "description": "",
+      "color": "0052cc"
+    },
+    {
+      "name": "programming:Matlab",
+      "description": "",
+      "color": "5319e7"
+    },
+    {
+      "name": "project_tools_skills:familiar",
+      "description": "",
+      "color": "c2e0c6"
     },
     {
       "name": "git_skills:0_none",
@@ -26,31 +56,6 @@
       "color": "bfdadc"
     },
     {
-      "name": "modality:fNIRS",
-      "description": "",
-      "color": "1d76db"
-    },
-    {
-      "name": "programming:Matlab",
-      "description": "",
-      "color": "5319e7"
-    },
-    {
-      "name": "project",
-      "description": "",
-      "color": "f9bc70"
-    },
-    {
-      "name": "project_development_status:0_concept_no_content",
-      "description": "",
-      "color": "bfd4f2"
-    },
-    {
-      "name": "project_tools_skills:familiar",
-      "description": "",
-      "color": "c2e0c6"
-    },
-    {
       "name": "project_type:coding_methods",
       "description": "",
       "color": "c5def5"
@@ -61,19 +66,14 @@
       "color": "c5def5"
     },
     {
-      "name": "status:published",
+      "name": "project_development_status:0_concept_no_content",
       "description": "",
-      "color": "0e8a16"
+      "color": "bfd4f2"
     },
     {
-      "name": "tools:SPM",
+      "name": "bhg:donostia_esp_1",
       "description": "",
-      "color": "0052cc"
-    },
-    {
-      "name": "topic:connectome",
-      "description": "",
-      "color": "006b75"
+      "color": "d4c5f9"
     }
   ],
   "content": "<!-- Guidelines\r\n\r\nWe are very excited to meet you at Brainhack Global 2020 \ud83c\udf89. To submit a project, you need to be an attendee to one of the Brainhack Global 2020 events listed the [Brainhack Global 2020 webpage](https://brainhack.org/global2020/events/). Please, register to the event that is most suitable to your location, time zone, interest, and/or project prior to submitting one. Thank you!\r\n\r\nWe have prepared a checklist to help with your project submission. Here is how to proceed:\r\n\r\nBefore filling in any part, please submit this issue\r\nCheck items in the checklist below as you go through them\r\nOnce you are done (at least all 'required' items must be provided), please delete the \"Guidelines\" section and add a comment saying 'Hi @Brainhack-Global/project-monitors: my project is ready!'\r\nThank you!\r\n\r\nAfter the issue is submitted, we will assign a 'project monitor' from the event location that you are registered with to review your submission. Once the submission is approved by the 'project monitor', they will add the label 'Project is ready' and it will appear on [Brainhack Global 2020 Projects](https://brainhack.org/global2020/projects) page with a separate project dedicated webpage. \r\n\r\nNote that you can always update your issue which will also change your page on the website accordingly.\r\n\r\nIf at any time you need help from us or anything is unclear, please add a comment and ping your project monitor. Our team is here to help! -->\r\n\r\n## Project info\r\n\r\n**Title:**\r\nTask-based connectivity analysis for functional NIRS data\r\n\r\n![image](https://user-images.githubusercontent.com/7611340/97814326-dc79d000-1c89-11eb-95df-2c57e8af8dae.png)\r\n\r\n**Project lead:**\r\n<!-- Add full name (and Twitter and Mattermost handle if possible) of the contact person. -->\r\nBorja Blanco, twitter.com/borja_blanco4\r\nIrene Arrieta, twitter.com/irenearrieta3\r\n\r\n**Project collaborators:**\r\n<!-- Add full names (and Twitter handles if possible) of any person contributing to the project. Try to follow the [all-contributors specification](https://github.com/all-contributors/all-contributors). Contributions of any kind are welcome! -->\r\nC\u00e9sar Caballero-Gaudes, twitter.com/CaballeroGaudes Mattermost: @CesarCaballeroGaudes\r\nEneko Uru\u00f1uela, twitter.com/eurunuela  Mattermost: @eurunuela\r\n\r\n**Registered Brainhack Global 2020 Event:**\r\n<!-- Specify the city and country of the Brainhack Global 2020 event that you\r\nregistered for. If your local event has a special name or topic (e.g. Brainhack\r\nLondon - Clinical Nuroanatomy), please do specify that as well to help us\r\ndistinguish between potential events in the same city. -->\r\nBrainhack Donostia 2020, San Sebasti\u00e1n-Donostia\r\n\r\n**Project Description:**\r\nThe aim of this project is to learn, comprehend and implement implement two types of task-based connectivity analyses for functional near infrared spectroscopy (fNIRS) data, namely generalized psycho-physiological interactions (gPPI) and Dynamic Causal Modelling (DCM). These approaches will be evaluated in fNIRS data collected in 4-month-old infants while they listened to forward and backward speech sentences during sleep. Coding will mostly be in MATLAB (similar to the main programs for fNIRS data analysis), although implementation in Python can be explored. \r\n\r\n**Data to use:**\r\n<!-- If your project uses data, add a short description of the data and a link to its source. -->\r\nDatasets to work with will be available in project's GitHub repo (see next).\r\n\r\n**Link to project repository/sources:**\r\nhttps://github.com/borjablanco/BHDonostia_2020_fNIRS\r\n\r\n**Goals for Brainhack Global 2020:**\r\n<!-- Add a list of milestones or deliverables that you expect to achieve during the event. Try to provide goals of varying complexity for contributors with different sets of skills. -->\r\nThe goals of the project will be split into two different parts and days.\r\nDays 1-3:\r\n- Implement gPPI algorithms based on the current implementation using Parametric Empirical Bayes estimation available in SPM12, and adapt this formulation to deal with the fNIRS data structure. Moreover, alternative implementation of the deconvolution algorithm based on stability selection will be explored also based on current code available in Matlab. Milestone: Compute gPPI at the channel-level and global-level for several datasets. \r\n\r\nDays 4 and 5:\r\n- Learn and understand the implementation of DCM for fNIRS available in SPM12 (see chapter 46 of SPM12 manual, and related articles). \r\n- Using the gPPI results, formulate and implement different models within the DCM framework. \r\nMilestone: Perform DCM data analysis in several datasets and interpret the results. Comparison between gPPI and DCM.\r\n\r\n**Good first issues:**\r\n<!-- Add a list of tasks to help new contributors find easy gateways into open source projects. -->\r\nRecommended Readings:\r\ngPPI:\r\n1. Gitelman, D.R., Penny, W.D., Ashburner, J. and Friston, K.J., 2003. Modeling regional and psychophysiologic interactions in fMRI: the importance of hemodynamic deconvolution. Neuroimage, 19(1), pp.200-207. https://doi.org/10.1016/S1053-8119(03)00058-2\r\n2. McLaren, D.G., Ries, M.L., Xu, G. and Johnson, S.C., 2012. A generalized form of context-dependent psychophysiological interactions (gPPI): a comparison to standard approaches. Neuroimage, 61(4), pp.1277-1286. https://doi.org/10.1016/j.neuroimage.2012.03.068\r\n2. Hassanpour, M.S., Eggebrecht, A.T., Peelle, J.E. and Culver, J.P., 2017. Mapping effective connectivity within cortical networks with diffuse optical tomography. Neurophotonics, 4(4), p.041402. https://doi.org/10.1117/1.NPh.4.4.041402\r\n3. Gerchen, M.F., Bernal\u2010Casas, D. and Kirsch, P., 2014. Analyzing task\u2010dependent brain network changes by whole\u2010brain psychophysiological interactions: A comparison to conventional analysis. Human brain mapping, 35(10), pp.5071-5082.  https://doi.org/10.1002/hbm.22532\r\n\r\nDCM: \r\n1. Tak, S., Kempny, A., Friston, K.J., Leff, A.P. and Penny, W.D., 2015. Dynamic causal modelling for functional near-infrared spectroscopy. Neuroimage, 111, pp.338-349. https://doi.org/10.1016/j.neuroimage.2015.02.035\r\n2. Bulgarelli, C., Blasi, A., Arridge, S., Powell, S., de Klerk, C.C., Southgate, V., Brigadoi, S., Penny, W., Tak, S. and Hamilton, A., 2018. Dynamic causal modelling on infant fNIRS data: A validation study on a simultaneously recorded fNIRS-fMRI dataset. NeuroImage, 175, pp.413-424. https://doi.org/10.1016/j.neuroimage.2018.04.022\r\n2. Chapter 46 of SPM12 Manual. https://www.fil.ion.ucl.ac.uk/spm/doc/spm12_manual.pdf\r\n\r\n**Skills:**\r\n<!-- Add a list of skills needed to contribute to this project. Try to think of both coding and non-coding skills. You can provide predefined skill levels, but it\u2019s better if you give concrete examples of the type of task contributors will be facing. Please make sure you create equal opportunties to accomodate the newcomers in your project to learn from each other and share the experiences. -->\r\n- Knowledge of Matlab\r\n- Familiar with fNIRS data preprocessing and analysis\r\n- Certain knowledge of brain function and neuroscience\r\n- Motivation to learn about functional and effective connectivity analysis\r\n\r\n**Communication channels:**\r\n<!-- Add links to chat channels in Slack or Mattermost -->\r\n<!-- https://mattermost.brainhack.org/brainhack/channels/bhd2020_fnirs_task_connectivity-->\r\n\r\n<!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know --> \r\n\r\n## Project Submission\r\n\r\n### Submission checklist\r\n\r\n*Once the issue is submitted, please check items in this list as you add under \u2018Additional project info\u2019*\r\n\r\n- [ ] Link to your project: could be a code repository, a shared document, etc.\r\n- [ ] Goals for Brainhack Global 2020: describe what you want to achieve during this brainhack.\r\n- [ ] Flesh out at least 2 \u201cgood first issues\u201d: those are tasks that do not require any prior knowledge about your project, could be defined as issues in a GitHub repository, or in a shared document.\r\n- [ ] Skills: list skills that would be particularly suitable for your project. We ask you to include at least one non-coding skill. Use the issue labels for this purpose.\r\n<!--- [ ] Chat channel: A link to a chat channel that will be used during the Brainhack Global 2020 event. This can be an existing channel or a new one. We recommend using the [Brainhack space on Mattermost](https://mattermost.brainhack.org/).-->\r\n<!-- [ ] Video channel: A link to a video channel that will be used during the Brainhack Global 2020 Brainhack. This can be an existing channel or a new one. For instance a [Jitsi meet room](https://meet.jit.si/). **Please, do not make the video channel public in here**: post a message in your chat channel and pin it so that it remains private, you do not get undesired content, and contributors can still have access to it..-->\r\n\r\nOptionally, you can also include information about:\r\n\r\n- [ ] Number of participants required.\r\n- [ ] Twitter-size summary of your project pitch.\r\n- [ ] Provide an image of your project for the Brainhack Global 2020 website. \r\n<!-- You can put an image anywhere in this issue and it will be used in to build your project page on the website. -->\r\n\r\nWe would like to think about how you will credit and onboard new members to your project. If you\u2019d like to share your thoughts with future project participants, you can include information about:\r\n\r\n- [ ] Specify how you will acknowledge contributions (e.g. listing members on a contributing page).\r\n- [ ] Provide links to onboarding documents if you have some:\r\n"

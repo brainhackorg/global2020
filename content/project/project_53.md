@@ -6,69 +6,9 @@
   "link_to_issue": "https://github.com/brainhackorg/global2020/issues/53",
   "labels": [
     {
-      "name": "bhg:ontario_can_1",
-      "description": "",
-      "color": "d4c5f9"
-    },
-    {
-      "name": "git_skills:2_branches_PRs",
-      "description": "",
-      "color": "bfdadc"
-    },
-    {
-      "name": "modality:EEG",
-      "description": "",
-      "color": "1d76db"
-    },
-    {
-      "name": "modality:behavioral",
-      "description": "",
-      "color": "1d76db"
-    },
-    {
-      "name": "programming:Python",
-      "description": "",
-      "color": "5319e7"
-    },
-    {
-      "name": "programming:documentation",
-      "description": "Markdown, Sphinx",
-      "color": "5319e7"
-    },
-    {
       "name": "project",
       "description": "",
       "color": "f9bc70"
-    },
-    {
-      "name": "project_development_status:2_releases_existing",
-      "description": "",
-      "color": "bfd4f2"
-    },
-    {
-      "name": "project_tools_skills:familiar",
-      "description": "",
-      "color": "c2e0c6"
-    },
-    {
-      "name": "project_type:coding_methods",
-      "description": "",
-      "color": "c5def5"
-    },
-    {
-      "name": "project_type:data_management",
-      "description": "involves programming",
-      "color": "c5def5"
-    },
-    {
-      "name": "project_type:documentation",
-      "description": "",
-      "color": "c5def5"
-    },
-    {
-      "name": "project_type:method_development",
-      "description": "",
-      "color": "c5def5"
     },
     {
       "name": "status:published",
@@ -76,22 +16,12 @@
       "color": "0e8a16"
     },
     {
-      "name": "tools:Jupyter",
-      "description": "",
-      "color": "0052cc"
-    },
-    {
-      "name": "tools:MNE",
-      "description": "",
-      "color": "0052cc"
-    },
-    {
-      "name": "topic:EEG_EventRelatedResponseModelling",
+      "name": "topic:data_visualisation",
       "description": "",
       "color": "006b75"
     },
     {
-      "name": "topic:data_visualisation",
+      "name": "topic:EEG_EventRelatedResponseModelling",
       "description": "",
       "color": "006b75"
     },
@@ -109,6 +39,76 @@
       "name": "topic:statistical_modelling",
       "description": "",
       "color": "006b75"
+    },
+    {
+      "name": "modality:behavioral",
+      "description": "",
+      "color": "1d76db"
+    },
+    {
+      "name": "modality:EEG",
+      "description": "",
+      "color": "1d76db"
+    },
+    {
+      "name": "tools:MNE",
+      "description": "",
+      "color": "0052cc"
+    },
+    {
+      "name": "tools:Jupyter",
+      "description": "",
+      "color": "0052cc"
+    },
+    {
+      "name": "programming:Python",
+      "description": "",
+      "color": "5319e7"
+    },
+    {
+      "name": "programming:documentation",
+      "description": "Markdown, Sphinx",
+      "color": "5319e7"
+    },
+    {
+      "name": "project_tools_skills:familiar",
+      "description": "",
+      "color": "c2e0c6"
+    },
+    {
+      "name": "git_skills:2_branches_PRs",
+      "description": "",
+      "color": "bfdadc"
+    },
+    {
+      "name": "project_type:coding_methods",
+      "description": "",
+      "color": "c5def5"
+    },
+    {
+      "name": "project_type:documentation",
+      "description": "",
+      "color": "c5def5"
+    },
+    {
+      "name": "project_type:data_management",
+      "description": "involves programming",
+      "color": "c5def5"
+    },
+    {
+      "name": "project_type:method_development",
+      "description": "",
+      "color": "c5def5"
+    },
+    {
+      "name": "project_development_status:2_releases_existing",
+      "description": "",
+      "color": "bfd4f2"
+    },
+    {
+      "name": "bhg:ontario_can_1",
+      "description": "",
+      "color": "d4c5f9"
     }
   ],
   "content": "<!-- Guidelines\r\n\r\nWe are very excited to meet you at Brainhack Global 2020 \ud83c\udf89. To submit a project, you need to be an attendee to one of the Brainhack Global 2020 events listed on the [Brainhack Global 2020 webpage](https://brainhack.org/global2020/events/). Please, register for the event that is most suitable to your location, time zone, interest, and/or project prior to submitting one. Thank you!\r\n\r\nWe have prepared a checklist to help with your project submission. Here is how to proceed:\r\n\r\nBefore filling in any part please check items in the checklist below as you go through them.\r\nOnce you are done (at least all 'required' items must be provided), please delete the \"Guidelines\" section, submit your issue and add a comment saying 'Hi @Brainhack-Global/project-monitors: my project is ready!'\r\nThank you!\r\n\r\nAfter the issue is submitted, we will assign a 'project monitor' from the event location that you are registered with to review your submission. Once the submission is approved by the 'project monitor', they will add the label 'Project is ready' and it will appear on [Brainhack Global 2020 Projects](https://brainhack.org/global2020/projects) page with a separate project dedicated webpage. \r\n\r\nNote that you can always update your issue which will also change your page on the website accordingly.\r\n\r\nIf at any time you need help from us or anything is unclear, please add a comment and ping your project monitor. Our team is here to help! -->\r\n\r\n## Project info\r\n\r\n<img src=\"https://github.com/NeuroTechX/eeg-notebooks/raw/master/doc/img/eeg-notebooks_logo.png\" alt=\"eeg-notebooks\" width=\"500\" align=\"center\">\r\n\r\n\r\n**Title:**\r\neeg-notebooks: a Python library for mobile EEG experiments and analysis\r\n\r\n**Project lead:**\r\n- John Griffiths\r\n- Twitter: @neurodidact\r\n- Brainhack mattermost (+ NeuroTechX slack): @johngrif\r\n\r\n**Project collaborators:**\r\neeg-notebooks is one of the many fruits of the [NeuroTechX](https://neurotechx.com/) global neurotechnology hacker community. There's a long list of past and present contributors to the project. Currently active contributors include John Griffiths, Jadin Tredup, Morgan Hough, Cristiano Micheli, Kyle Mathewson, and [several others](https://github.com/neurotechx/eeg-notebooks#acknowledgments) .\r\n\r\nPlease add your name to the list [here](https://docs.google.com/spreadsheets/d/1br0BTCPszGFp1OB91WV6989hyu3-dskOoUvXO6wCGAs/edit?usp=sharing) if you're interested in contributing eeg-notebooks during the BrainHack Global 2020 sprint, and/or thereafter.\r\n\r\n\r\n**Registered Brainhack Global 2020 Event:**\r\nThe main BHG2020 eegnb sprint will happen during **Brainhack Ontario** (2-4th Dec). \r\n\r\n...but we are expecting to have contributors from around the world in multiple time zones during this time :)  \r\n\r\n\r\n\r\n\r\n**Project Description:**\r\n\r\n[**eeg-notebooks**](https://github.com/NeuroTechX/eeg-notebooks) is a Python library that allows you to run cognitive neuroscience experiments with a simple mobile EEG device and laptop computer. We like to think of and talk about this as ***\"democratizing the cognitive neuroscience experiment\"***, because it makes it possible to achieve for a few hundred bucks what traditionally has only been possible in dedicated research labs with quadruple figure price tags.\r\n\r\n*Examples:*\r\n\r\nLaunch experiment and device selection prompt with the stand-alone command line interface:\r\n```bash\r\neegnb runexp -ip \r\n```\r\n\r\nRun a visual N170 (faces vs. houses) RSVP EEG experiment via the Python API:\r\n```python\r\nfrom eegnb.experiments.visual_n170 import n170   # choose and import the experiment to run from a wide selection\r\nfrom eegnb.devices.eeg import EEG                # import and initialize an EEG object that deals with \r\neeg_device = EEG(device='muse2016')              # ...connecting to and streaming from your device\r\nn170.present(duration=300, eeg=eeg_device,       # launch the experiment (psychopy visual stimulus presentation), \r\n                     save_fn='my170data.csv')    # ...and write EEG data and experiment triggers to file\r\n\r\n```\r\n\r\nFor more examples, check out the sphinx [examples gallery](https://neurotechx.github.io/eeg-notebooks/experiments/all_examples.html). \r\n\r\n\r\n\r\n\r\n**Data to use:**\r\n<!-- If your project uses data, add a short description of the data and a link to its source. -->\r\n\r\n1. The eeg-notebooks repo has multiple example datasets for several EEG experiments. We are very interested in contributions that present compelling new analyses of these data in the examples documentation\r\n\r\n2. Collect your own data! We are compiling a large database of user-contributed EEG data, collected using the eeg-notebooks visual and auditory experiments. \r\n\r\n\r\n\r\n**Link to project repository/sources:**\r\nhttps://github.com/NeuroTechX/eeg-notebooks\r\nDocs page: https://neurotechx.github.io/eeg-notebooks\r\n\r\n\r\n**Goals for Brainhack Global 2020:**\r\n<!-- Add a list of milestones or deliverables that you expect to achieve during the event. Try to provide goals of varying complexity for contributors with different sets of skills. -->\r\n\r\nAt BHG 2020 we are primarily looking for contributions in the following areas\r\n\r\n- Extend and fill gaps in the documentation\r\n- New analyses of existing data (ERPs, SSVEPs)\r\n- Add new experiments in PsychoPy\r\n- Generate EEG/ERP recordings for our database\r\n- Add support for new devices\r\n- Test support for existing devices\r\n\r\nWe're also all ears for any cool new additional functionality ideas. \r\n\r\nImportant point: **You don't need an EEG device available to join us and make contributions**. \r\n\r\nFor example, there's plenty of important work to be done that is straight-up MNE, and/or Scikit-Learn, and/or Psychopy. \r\n\r\nYou can contribute to data collection and device testing if you have access to one or more of the following: Muse2016,  Muse2, MuseS, OpenBCI Ganglion, OpenBCI Cyton, G.Tec Unicorn, BrainBit, Neurosity Notion 1, Neurosity Notion 2. See the eeg-notebooks documentation for more info. \r\n\r\n\r\n\r\n**Good first issues:**\r\n<!-- Add a list of tasks to help new contributors find easy gateways into open source projects. -->\r\n\r\n1. Test installation, report any bugs + observations for improvement in docs (more [here](https://github.com/NeuroTechX/eeg-notebooks/issues/27) )\r\n\r\n2. Run the visual N170 experiment and compute ERPs (more [here](https://github.com/NeuroTechX/eeg-notebooks/issues/28))\r\n\r\nSee more good first issues [here](https://github.com/NeuroTechX/eeg-notebooks/labels/good%20first%20issue)\r\n\r\n\r\n**Skills:**\r\n<!-- Add a list of skills needed to contribute to this project. Try to think of both coding and non-coding skills. You can provide predefined skill levels, but it\u2019s better if you give concrete examples of the type of task contributors will be facing. Please make sure you create equal opportunities to accommodate the newcomers in your project to learn from each other and share the experiences. -->\r\n\r\n*Essential:*\r\n\r\n- Python\r\n\r\nOr\r\n\r\n- A keen interest in EEG and in writing and editing documentation\r\n\r\n\r\n\r\n*Useful, depending on what you do:*\r\n\r\n- MNE\r\n- Scikit-Learn\r\n- PsychoPy\r\n- EEG analysis and interpretation\r\n- Behavioural experiment design and programming\r\n- Documentation writing\r\n\r\n\r\n\r\n\r\n**Tools/Software/Methods to Use:**\r\n<!-- Add a list of tools/software/methods that are advised to be installed/reviewed ahead of the event to gain a bit of time with the installation of the software, preparation of the environments or describing the methods that will be needed to contribute to this project. Try to think of both coding and non-coding details regarding such to be listed. -->\r\n\r\nSee the [installation instructions ](https://neurotechx.github.io/eeg-notebooks/getting_started/installation.html). Please work through these prior to 2nd Dec, and post any issues you have in getting set up on the github repo issues page. \r\n\r\n\r\n**Communication channels:**\r\n<!-- Add links to chat channels in Slack or Mattermost -->\r\n\r\n<!-- On mattermost: https://mattermost.brainhack.org/brainhack/channels/eeg-notebooks -->\r\n<!-- On NeuroTechX slack: check out the \"#eeg-notebooks\" channel. -->\r\n\r\n\r\n\r\n<!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch, or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know --> \r\n\r\n**Project labels**\r\n<!-- Please prepend a hashtag (#) to all of the labels that fit your project, then tick the box below to state you did so (either by adding an 'x' between square brackets or by ticking it after submission). Please make sure that you stick by the labels listed for each topic below, rather than adding any new one, for further actions to work properly on the issue labels.\r\n\r\nE.g. my project is about the modulatory effect of salmon mousse on British supper survival\r\nIn the following list:\r\n```\r\nmeal:\r\nbrunch, supper\r\ntype:\r\nmousse, salmon, squid\r\n```\r\nI'm going to hashtag all of the labels I need my project to be indexed in:\r\n```\r\nmeal:\r\nbrunch, #supper\r\ntype:\r\n#mousse, #salmon, squid\r\n```\r\n\r\nNow the real list (please indicate all of the labels you'd like to add to your project):\r\n\r\n- Type of project:\r\n#coding_methods, #data_management, #documentation, #method_development,\r\npipeline_development, tutorial_recording, #visualization\r\n\r\n- Project development status:\r\n0_concept_no_content, 1_basic structure, #2_releases_existing\r\n\r\n- Topic of the projet:\r\nBayesian_approaches, causality, connectome, #data_visualisation, deep_learning,\r\ndiffusion, diversity_inclusivity_equality, #EEG_EventRelatedResponseModelling,\r\nEEG_source_modelling, Granger_causality, hypothesis_testing, ICA, information_theory,\r\n#machine_learning, MR_methodologies, neural_decoding, neural_encoding, neural_networks,\r\nPCA, physiology, reinforcement_learning, #reproducible_scientific_methods, single_neuron_models,\r\n#statistical_modelling, systems_neuroscience, tractography\r\n\r\n- Tools used in the project:\r\nAFNI, ANTs, BIDS, Brainstorm, CPAC, Datalad, DIPY, FieldTrip, fMRIPrep, Freesurfer,\r\nFSL, #Jupyter, #MNE, MRtrix, Nipype, NWB, SPM\r\n\r\n- Tools skill level required to enter the project (more than one possible):\r\ncomfortable, expert, #familiar, no_skills_required\r\n\r\n- Programming language used in the project:\r\nno_programming_involved, C++, containerization, documentation, Java, Julia, Matlab,\r\n#Python, R, shell_scripting, Unix_command_line, Web, workflows\r\n\r\n- Modalities involved in the project (if any):\r\n#behavioral, DWI, ECG, ECOG, #EEG, eye_tracking, fMRI, fNIRS, MEG, MRI, PET, TDCS, TMS\r\n\r\n- Git skills required to enter the project (more than one possible):\r\n0_no_git_skills, 1_commit_push, #2_branches_PRs, 3_continuous_integration\r\n-->\r\n\r\n- [x] I added all of the labels I want an associate to my project\r\n\r\n## Project Submission\r\n\r\n### Submission checklist\r\n\r\n*Once the issue is submitted, please check items in this list as you add under \u2018Additional project info\u2019*\r\n\r\n- [x] Link to your project: could be a code repository, a shared document, etc.\r\n- [x] Goals for Brainhack Global 2020: describe what you want to achieve during this brainhack.\r\n- [x] Flesh out at least 2 \u201cgood first issues\u201d: those are tasks that do not require any prior knowledge about your project, could be defined as issues in a GitHub repository, or in a shared document.\r\n- [x] Skills: list skills that would be particularly suitable for your project. We ask you to include at least one non-coding skill. Use the issue labels for this purpose.\r\n<!-- - [x] Chat channel: A link to a chat channel that will be used during the Brainhack Global 2020 event. This can be an existing channel or a new one. We recommend using the [Brainhack space on Mattermost](https://mattermost.brainhack.org/).-->\r\n<!-- [ ] Video channel: A link to a video channel that will be used during the Brainhack Global 2020 Brainhack. This can be an existing channel or a new one. For instance a [Jitsi meet room](https://meet.jit.si/). **Please, do not make the video channel public in here**: post a message in your chat channel and pin it so that it remains private, you do not get undesired content, and contributors can still have access to it..-->\r\n\r\nOptionally, you can also include information about:\r\n\r\n- [ ] Number of participants required.\r\n- [ ] Twitter-sized summary of your project pitch.\r\n- [x] Provide an image of your project for the Brainhack Global 2020 website. \r\n<!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->\r\n\r\nWe would like to think about how you will credit and onboard new members to your project. If you\u2019d like to share your thoughts with future project participants, you can include information about:\r\n\r\n- [ ] Specify how you will acknowledge contributions (e.g. listing members on a contributing page).\r\n- [ ] Provide links to onboarding documents if you have some:\r\n"

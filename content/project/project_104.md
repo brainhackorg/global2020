@@ -6,14 +6,24 @@
   "link_to_issue": "https://github.com/brainhackorg/global2020/issues/104",
   "labels": [
     {
-      "name": "bhg:micro2macro_gbr_1",
+      "name": "project",
       "description": "",
-      "color": "d4c5f9"
+      "color": "f9bc70"
     },
     {
-      "name": "git_skills:0_none",
+      "name": "status:published",
       "description": "",
-      "color": "bfdadc"
+      "color": "0e8a16"
+    },
+    {
+      "name": "topic:diffusion",
+      "description": "",
+      "color": "006b75"
+    },
+    {
+      "name": "topic:MR_methodologies",
+      "description": "",
+      "color": "006b75"
     },
     {
       "name": "modality:DWI",
@@ -26,24 +36,34 @@
       "color": "1d76db"
     },
     {
+      "name": "tools:FSL",
+      "description": "",
+      "color": "0052cc"
+    },
+    {
+      "name": "tools:DIPY",
+      "description": "",
+      "color": "0052cc"
+    },
+    {
+      "name": "tools:Jupyter",
+      "description": "",
+      "color": "0052cc"
+    },
+    {
       "name": "programming:Python",
       "description": "",
       "color": "5319e7"
     },
     {
-      "name": "project",
-      "description": "",
-      "color": "f9bc70"
-    },
-    {
-      "name": "project_development_status:1_basic structure",
-      "description": "",
-      "color": "bfd4f2"
-    },
-    {
       "name": "project_tools_skills:familiar",
       "description": "",
       "color": "c2e0c6"
+    },
+    {
+      "name": "git_skills:0_none",
+      "description": "",
+      "color": "bfdadc"
     },
     {
       "name": "project_type:coding_methods",
@@ -56,34 +76,14 @@
       "color": "c5def5"
     },
     {
-      "name": "status:published",
+      "name": "project_development_status:1_basic structure",
       "description": "",
-      "color": "0e8a16"
+      "color": "bfd4f2"
     },
     {
-      "name": "tools:DIPY",
+      "name": "bhg:micro2macro_gbr_1",
       "description": "",
-      "color": "0052cc"
-    },
-    {
-      "name": "tools:FSL",
-      "description": "",
-      "color": "0052cc"
-    },
-    {
-      "name": "tools:Jupyter",
-      "description": "",
-      "color": "0052cc"
-    },
-    {
-      "name": "topic:MR_methodologies",
-      "description": "",
-      "color": "006b75"
-    },
-    {
-      "name": "topic:diffusion",
-      "description": "",
-      "color": "006b75"
+      "color": "d4c5f9"
     }
   ],
   "content": "**Title:** \r\nImplementation of soma and neurite density imaging (SANDI) in the accelerated microstructure imaging via convex optimization (AMICO) framework \r\n\r\n<img width=\"271\" alt=\"BrainHackProject\" src=\"https://user-images.githubusercontent.com/33546086/104855463-d6000980-5904-11eb-8d80-a206483b0aa1.png\">\r\n \r\n**Project lead:** \r\nMarco Palombo (email: marco.palombo@ucl.ac.uk; Twitter: @MarcoPalombo3)  \r\n<!-- Add full name (and Twitter and Mattermost handle if possible) of the contact person. --> \r\n \r\n**Project collaborators:** \r\nSimona Schiavi (email: simona.schiavi@univr.it; Twitter: @simonaschiavi24)\r\nAlessandro Daducci (email: alessandro.daducci@univr.it; Twitter: @ADaducci)\r\n \r\n**Registered Brainhack Global 2020 Event:** \r\nBrainhack Atlantis The Atlantic Ocean - Micro2Macro \r\n \r\n**Project Description:** \r\n\r\n_AIM_\r\n\r\nThe aim of the project is to implement an algorithm for fast and robust fitting of complex microstructure imaging methods, such as the soma and neurite density imaging (SANDI), using the accelerated microstructure imaging via convex optimization (AMICO) framework.  \r\n  \r\n_What is SANDI?_\r\n\r\nSANDI (https://doi.org/10.1016/j.neuroimage.2020.116835) is a novel imaging technique based on diffusion MRI and biophysical modelling, designed to provide maps of MR indices of apparent soma density and size, as well as apparent neurite density. As such, SANDI is of interest for studies involving the characterization of brain cytoarchitectonics in a wide range of conditions: e.g., brain development, aging, plasticity, neuroinflammation, neurodegeneration, and more. \r\n\r\n_What is AMICO?_\r\n\r\nThe AMICO framework (https://doi.org/10.1016/j.neuroimage.2014.10.026) offers the possibility to re-formulates virtually any microstructure imaging model as convenient linear systems which, then, can be efficiently solved using very fast algorithms. To date, it has been successfully employed with other models, such as NODDI and ActiveAx. We will implement an AMICO version of SANDI building upon the code publicly available at https://github.com/daducci/AMICO\r\n\r\n_Why SANDI-AMICO_\r\n\r\nThe fitting of the SANDI model originally proposed is based on machine learning regression, which provides ultra-fast model parameters estimation but requires the careful design of both the training strategy and the machine learning model.  \r\nThe AMICO framework can overcome these issues and provide the scientific community with a more agnostic algorithm for the fast and robust estimation of SANDI indices.  \r\n \r\n \r\n**Data to use:**  \r\nWe will use unpublished data collected at high field and high diffusion gradient strength on the mouse brain. Since it is unpublished, the data will be made available privately by the project leader.  \r\n \r\n**Link to project repository/sources:** \r\nhttps://github.com/daducci/AMICO \r\nPalombo, Marco, et al. \"SANDI: a compartment-based model for non-invasive apparent soma and neurite imaging by diffusion MRI.\" NeuroImage (2020): 116835. (https://doi.org/10.1016/j.neuroimage.2020.116835)\r\nDaducci, Alessandro, et al. \"Accelerated microstructure imaging via convex optimization (AMICO) from diffusion MRI data.\" NeuroImage 105 (2015): 32-44. (https://doi.org/10.1016/j.neuroimage.2014.10.026)\r\n \r\n**Goals for Brainhack Global 2020:**\r\nDeliverable 1: stable version of SANDI-AMICO; \r\nDeliverable 2: tested version of SANDI-AMICO on one suitable dataset; \r\n \r\n**Good first issues:** \r\n \r\n1. Implementing data and protocol loader: read NIFTI file; read b values and directions; check data consistency; separate data in shells and average across directions; \r\n2. Implementing database generator: define functions to generate response functions to be used in the AMICO linear system according to the SANDI model and the Gaussian Phase Distribution approximation; \r\n3. Implementing the optimizer: define the objective function, setup the optimizer, perform the voxelwise fitting; \r\n4. Implementing the result writer: save the SANDI maps in NIFTI format, keeping the correct header file;  \r\n5. Test performances: generate known ground-truth conditions using analytical simulations and different noise characteristics (e.g. Gaussian, Gaussian + floor; Rician); \r\n6. Write up an initial tutorial on the wiki page of the AMICO repository. \r\n \r\n**Skills:**\r\nPython programming; \r\nFamiliar with DWI data processing (e.g. NIFTI/DICOM format, diffusion-weighted MRI protocols etc.);\r\nBasic understanding on inverse linear problems (least square method, common regularization techniques, etc.);\r\n \r\n**Tools/Software/Methods to Use:** \r\nPython 3, AMICO (pip install dmri-amico), Camino, visual studio code or spider or jupyter.\r\n<!-- Add a list of tools/software/methods that are advised to be installed/reviewed ahead of the event to gain a bit of time with the installation of the software, preparation of the environments or describing the methods that will be needed to contribute to this project. Try to think of both coding and non-coding details regarding such to be listed. --> \r\n \r\n**Communication channels:** \r\nhttps://mattermost.brainhack.org/brainhack/channels/micro2macro-sandi_in_amico\r\n<!-- Add links to chat channels in Slack or Mattermost --> \r\nhttps://zoom.us/ (link will be posted in mattermost channel)\r\n<!-- [ ] Video channel: Please write here the communication channel (Zoom, Jitsi, Twitch, or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know --> \r\n\r\n**Project labels**\r\n#dMRI, #modelling, #AMICO, #SANDI, #Microstructure, #InVivoMicroscopy, #Neuro \r\n- Type of project: \r\n#coding_methods #pipeline_development \r\n \r\n- Project development status: \r\n#1_basic structure \r\n \r\n- Topic of the projet: \r\n#diffusion #MR_methodologies \r\n \r\n- Tools used in the project: \r\n#DIPY, #FSL, #Jupyter, #AMICO #Camino \r\n \r\n- Tools skill level required to enter the project (more than one possible): \r\n#familiar \r\n \r\n- Programming language used in the project: \r\n#Python \r\n \r\n- Modalities involved in the project (if any): \r\n#DWI, #MRI \r\n \r\n- Git skills reuired to enter the project (more than one possible): \r\n#0_no_git_skills \r\n \r\n## Project Submission \r\n \r\n### Submission checklist \r\n \r\n*Once the issue is submitted, please check items in this list as you add under \u2018Additional project info\u2019* \r\n<!-- Please prepend a hashtag (#) to all of the labels that fit your project, then tick the box below to state you did so (either by adding an 'x' between square brackets or by ticking it after submission). Please make sure that you stick by the labels listed for each topic below, rather than adding any new one, for further actions to work properly on the issue labels.\r\n\r\nE.g. my project is about the modulatory effect of salmon mousse on British supper survival\r\nIn the following list:\r\n```\r\nmeal:\r\nbrunch, supper\r\ntype:\r\nmousse, salmon, squid\r\n```\r\nI'm going to hashtag all of the labels I need my project to be indexed in:\r\n```\r\nmeal:\r\nbrunch, #supper\r\ntype:\r\n#mousse, #salmon, squid\r\n```\r\n\r\nNow the real list (please indicate all of the labels you'd like to add to your project):\r\n\r\n- Type of project:\r\ncoding_methods, data_management, documentation, method_development,\r\n[x]pipeline_development, tutorial_recording, visualization\r\n\r\n- Project development status:\r\n0_concept_no_content, [x]1_basic structure, 2_releases_existing\r\n\r\n- Topic of the projet:\r\nBayesian_approaches, causality, connectome, data_visualisation, deep_learning,\r\ndiffusion, diversity_inclusivity_equality, EEG_EventRelatedResponseModelling,\r\nEEG_source_modelling, Granger_causality, hypothesis_testing, ICA, information_theory,\r\nmachine_learning, MR_methodologies, neural_decoding, neural_encoding, neural_networks,\r\nPCA, physiology, reinforcement_learning, reproducible_scientific_methods, single_neuron_models,\r\nstatistical_modelling, systems_neuroscience, tractography\r\n\r\n- Tools used in the project:\r\nAFNI, ANTs, BIDS, Brainstorm, CPAC, Datalad, DIPY, FieldTrip, fMRIPrep, Freesurfer,\r\nFSL, Jupyter, MNE, MRtrix, Nipype, NWB, SPM\r\n\r\n- Tools skill level required to enter the project (more than one possible):\r\ncomfortable, expert, familiar, no_skills_required\r\n\r\n- Programming language used in the project:\r\nno_programming_involved, C++, containerization, documentation, Java, Julia, Matlab,\r\nPython, R, shell_scripting, Unix_command_line, Web, workflows\r\n\r\n- Modalities involved in the project (if any):\r\nbehavioral, DWI, ECG, ECOG, EEG, eye_tracking, fMRI, fNIRS, MEG, MRI, PET, TDCS, TMS\r\n\r\n- Git skills reuired to enter the project (more than one possible):\r\n0_no_git_skills, 1_commit_push, 2_branches_PRs, 3_continuous_integration\r\n-->\r\n\r\n- [x] I added all of the labels I want an associate to my project\r\n\r\n## Project Submission\r\n\r\n### Submission checklist\r\n\r\n*Once the issue is submitted, please check items in this list as you add under \u2018Additional project info\u2019*\r\n\r\n- [x] Link to your project: could be a code repository, a shared document, etc.\r\n- [x] Goals for Brainhack Global 2020: describe what you want to achieve during this brainhack.\r\n- [x] Flesh out at least 2 \u201cgood first issues\u201d: those are tasks that do not require any prior knowledge about your project, could be defined as issues in a GitHub repository, or in a shared document.\r\n- [x] Skills: list skills that would be particularly suitable for your project. We ask you to include at least one non-coding skill. Use the issue labels for this purpose.\r\n- [x] Chat channel: A link to a chat channel that will be used during the Brainhack Global 2020 event. This can be an existing channel or a new one. We recommend using the [Brainhack space on Mattermost](https://mattermost.brainhack.org/).\r\n<!-- [ ] Video channel: A link to a video channel that will be used during the Brainhack Global 2020 Brainhack. This can be an existing channel or a new one. For instance a [Jitsi meet room](https://meet.jit.si/). **Please, do not make the video channel public in here**: post a message in your chat channel and pin it so that it remains private, you do not get undesired content, and contributors can still have access to it..-->\r\n\r\nOptionally, you can also include information about:\r\n\r\n- [ ] Number of participants required.\r\n- [ ] Twitter-sized summary of your project pitch.\r\n- [x] Provide an image of your project for the Brainhack Global 2020 website. \r\n<!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->\r\n\r\nWe would like to think about how you will credit and onboard new members to your project. If you\u2019d like to share your thoughts with future project participants, you can include information about:\r\n\r\n- [ ] Specify how you will acknowledge contributions (e.g. listing members on a contributing page).\r\n- [ ] Provide links to onboarding documents if you have some:\r\n"

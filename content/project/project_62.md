@@ -6,17 +6,27 @@
   "link_to_issue": "https://github.com/brainhackorg/global2020/issues/62",
   "labels": [
     {
-      "name": "bhg:ontario_can_1",
+      "name": "project",
       "description": "",
-      "color": "d4c5f9"
+      "color": "f9bc70"
     },
     {
-      "name": "git_skills:0_none",
+      "name": "status:published",
       "description": "",
-      "color": "bfdadc"
+      "color": "0e8a16"
+    },
+    {
+      "name": "topic:reproducible_scientific_methods",
+      "description": "",
+      "color": "006b75"
     },
     {
       "name": "modality:DWI",
+      "description": "",
+      "color": "1d76db"
+    },
+    {
+      "name": "modality:fMRI",
       "description": "",
       "color": "1d76db"
     },
@@ -26,9 +36,19 @@
       "color": "1d76db"
     },
     {
-      "name": "modality:fMRI",
+      "name": "tools:BIDS",
       "description": "",
-      "color": "1d76db"
+      "color": "0052cc"
+    },
+    {
+      "name": "tools:fMRIPrep",
+      "description": "",
+      "color": "0052cc"
+    },
+    {
+      "name": "tools:Jupyter",
+      "description": "",
+      "color": "0052cc"
     },
     {
       "name": "programming:Python",
@@ -41,19 +61,14 @@
       "color": "5319e7"
     },
     {
-      "name": "project",
-      "description": "",
-      "color": "f9bc70"
-    },
-    {
-      "name": "project_development_status:1_basic structure",
-      "description": "",
-      "color": "bfd4f2"
-    },
-    {
       "name": "project_tools_skills:none",
       "description": "",
       "color": "c2e0c6"
+    },
+    {
+      "name": "git_skills:0_none",
+      "description": "",
+      "color": "bfdadc"
     },
     {
       "name": "project_type:documentation",
@@ -61,29 +76,14 @@
       "color": "c5def5"
     },
     {
-      "name": "status:published",
+      "name": "project_development_status:1_basic structure",
       "description": "",
-      "color": "0e8a16"
+      "color": "bfd4f2"
     },
     {
-      "name": "tools:BIDS",
+      "name": "bhg:ontario_can_1",
       "description": "",
-      "color": "0052cc"
-    },
-    {
-      "name": "tools:Jupyter",
-      "description": "",
-      "color": "0052cc"
-    },
-    {
-      "name": "tools:fMRIPrep",
-      "description": "",
-      "color": "0052cc"
-    },
-    {
-      "name": "topic:reproducible_scientific_methods",
-      "description": "",
-      "color": "006b75"
+      "color": "d4c5f9"
     }
   ],
   "content": "<!-- Guidelines\r\n\r\nWe are very excited to meet you at Brainhack Global 2020 \ud83c\udf89. To submit a project, you need to be an attendee to one of the Brainhack Global 2020 events listed on the [Brainhack Global 2020 webpage](https://brainhack.org/global2020/events/). Please, register for the event that is most suitable to your location, time zone, interest, and/or project prior to submitting one. Thank you!\r\n\r\nWe have prepared a checklist to help with your project submission. Here is how to proceed:\r\n\r\nBefore filling in any part please check items in the checklist below as you go through them.\r\nOnce you are done (at least all 'required' items must be provided), please delete the \"Guidelines\" section, submit your issue and add a comment saying 'Hi @Brainhack-Global/project-monitors: my project is ready!'\r\nThank you!\r\n\r\nAfter the issue is submitted, we will assign a 'project monitor' from the event location that you are registered with to review your submission. Once the submission is approved by the 'project monitor', they will add the label 'Project is ready' and it will appear on [Brainhack Global 2020 Projects](https://brainhack.org/global2020/projects) page with a separate project dedicated webpage. \r\n\r\nNote that you can always update your issue which will also change your page on the website accordingly.\r\n\r\nIf at any time you need help from us or anything is unclear, please add a comment and ping your project monitor. Our team is here to help! -->\r\n\r\n## Project info\r\n\r\n**Title:**\r\nTry Data Carpentry Neuroimaging\r\n\r\n**Project lead:**\r\nErin Dickie @erin.w.dickie\r\nOlivia Stanley @ostanley\r\nMichael Joseph @josephmje\r\nJerrold Jeyachandra @jerdra\r\nJason Kai @tkai\r\nJon Haitz Legarreta Gorro\u00f1o @jhlegarreta\r\n\r\n**Project collaborators:**\r\nJB Poline\r\nTed Strauss\r\n\r\n\r\n**Registered Brainhack Global 2020 Event:**\r\nBrainHack Ontario\r\n\r\n**Project Description:**\r\nA group of us have been building a set of BIDS/neuroimaging curriculum for the carpentries. The lessons cover intro to neuroimaging (using BIDS), pybids, downloading public data, working with fMRI data in python (nibabel and nilearn) as well as diffusion MRI analysis. We have previously taught these lesson's as part of BrainHack Toronto and BrainHack Western and the lesson's have now been moved into the \"carpentries incubator\". Meaning that we are hoping that others might be interested in teaching or learning from this material soon! We are inviting others to check out the material during BrainHack global and give us some feedback! \r\n\r\n**Data to use:**\r\nDataset are described in individual lesson repo's.  All lesson's can be run on binder so no local download required.\r\n\r\n**Link to project repository/sources:**\r\nhttps://conp-pcno-training.github.io/neuroimaging-carpentry/\r\n\r\n**Goals for Brainhack Global 2020:**\r\n\r\n- try learning BIDS, pybids, fMRI analysis with python, or dmri analysis by following our tutorials (either the data carpentry format or the binder links to jupyter notebooks)\r\n- join us at our zoom meeting Dec 3, at 2pm EST to tell us how it went\r\n- you can also submit feedback by submitting issues to the lesson repo's or contacting us on mattermost or (discourse - for BrainHack Ontario) or carpentries slack\r\n\r\n**Good first issues:**\r\n<!-- Add a list of tasks to help new contributors find easy gateways into open source projects. -->\r\n \r\n1. Tell us what you think? https://github.com/carpentries-incubator/SDC-BIDS-IntroMRI/issues/3\r\n2. Join our zoom meeting! https://github.com/carpentries-incubator/SDC-BIDS-IntroMRI/issues/11\r\n\r\n**Skills:**\r\nNo skills needed - just _try_ to learn from our content and tell us what you think! \r\n\r\n**Tools/Software/Methods to Use:**\r\n<!-- Add a list of tools/software/methods that are advised to be installed/reviewed ahead of the event to gain a bit of time with the installation of the software, preparation of the environments or describing the methods that will be needed to contribute to this project. Try to think of both coding and non-coding details regarding such to be listed. -->\r\nYour web browser - all lessons can be followed as jupyter notebooks on binder. Or set up a local python environment using the instructions given in the repos. (for example https://carpentries-incubator.github.io/SDC-BIDS-IntroMRI/setup.html) \r\n\r\n**Communication channels:**\r\n<!--https://swcarpentry.slack.com/archives/CCJBHKCHZ --> \r\n<!--https://mattermost.brainhack.org/brainhack/channels/data-carpentry-neuroimaging --> \r\n\r\n\r\n<!-- [ X] Video channel:  Zoom link will be posted to mattermost and slack channels Please write here the communication channel (Zoom, Jitsi, Twitch, or any other platform) you will be using to work collaboratively however please keep them as commented to avoid any public sharing. Once you set up your project Mattermost communication channel, make sure you write the link of the video channel at the header of the Mattermost channel for your attendees to know --> \r\n\r\n**Project labels**\r\n<!-- Please prepend a hashtag (#) to all of the labels that fit your project, then tick the box below to state you did so (either by adding an 'x' between square brackets or by ticking it after submission). Please make sure that you stick by the labels listed for each topic below, rather than adding any new one, for further actions to work properly on the issue labels.\r\n\r\nE.g. my project is about the modulatory effect of salmon mousse on British supper survival\r\nIn the following list:\r\n```\r\nmeal:\r\nbrunch, supper\r\ntype:\r\nmousse, salmon, squid\r\n```\r\nI'm going to hashtag all of the labels I need my project to be indexed in:\r\n```\r\nmeal:\r\nbrunch, #supper\r\ntype:\r\n#mousse, #salmon, squid\r\n```\r\n\r\nNow the real list (please indicate all of the labels you'd like to add to your project):\r\n```\r\n- Type of project:\r\ncoding_methods, data_management, #documentation, method_development,\r\npipeline_development, tutorial_recording, visualization\r\n\r\n- Project development status:\r\n0_concept_no_content, #1_basic structure, 2_releases_existing\r\n\r\n- Topic of the projet:\r\nBayesian_approaches, causality, connectome, data_visualisation, deep_learning,\r\ndiffusion, diversity_inclusivity_equality, EEG_EventRelatedResponseModelling,\r\nEEG_source_modelling, Granger_causality, hypothesis_testing, ICA, information_theory,\r\nmachine_learning, MR_methodologies, neural_decoding, neural_encoding, neural_networks,\r\nPCA, physiology, reinforcement_learning, #reproducible_scientific_methods, single_neuron_models,\r\nstatistical_modelling, systems_neuroscience, tractography\r\n\r\n- Tools used in the project:\r\nAFNI, ANTs, #BIDS, Brainstorm, CPAC, Datalad, DIPY, FieldTrip, #fMRIPrep, Freesurfer,\r\nFSL, #Jupyter, MNE, MRtrix, Nipype, NWB, SPM\r\n\r\n- Tools skill level required to enter the project (more than one possible):\r\ncomfortable, expert, familiar, #no_skills_required\r\n```\r\n- Programming language used in the project:\r\nno_programming_involved, C++, containerization, documentation, Java, Julia, Matlab,\r\n#Python, R, shell_scripting, Unix_command_line, Web, workflows\r\n\r\n- Modalities involved in the project (if any):\r\nbehavioral, #DWI, ECG, ECOG, EEG, eye_tracking, #fMRI, fNIRS, MEG, #MRI, PET, TDCS, TMS\r\n\r\n- Git skills reuired to enter the project (more than one possible):\r\n#0_no_git_skills, 1_commit_push, 2_branches_PRs, 3_continuous_integration\r\n-->\r\n\r\n- [X ] I added all of the labels I want an associate to my project\r\n\r\n## Project Submission\r\n\r\n### Submission checklist\r\n\r\n*Once the issue is submitted, please check items in this list as you add under \u2018Additional project info\u2019*\r\n\r\n- [x] Link to your project: could be a code repository, a shared document, etc.\r\n- [x] Goals for Brainhack Global 2020: describe what you want to achieve during this brainhack.\r\n- [ X] Flesh out at least 2 \u201cgood first issues\u201d: those are tasks that do not require any prior knowledge about your project, could be defined as issues in a GitHub repository, or in a shared document.\r\n- [x] Skills: list skills that would be particularly suitable for your project. We ask you to include at least one non-coding skill. Use the issue labels for this purpose.\r\n<!--[x] Chat channel: A link to a chat channel that will be used during the Brainhack Global 2020 event. This can be an existing channel or a new one. We recommend using the [Brainhack space on Mattermost](https://mattermost.brainhack.org/). --> \r\n<!-- [ ] Video channel: A link to a video channel that will be used during the Brainhack Global 2020 Brainhack. This can be an existing channel or a new one. For instance a [Jitsi meet room](https://meet.jit.si/). **Please, do not make the video channel public in here**: post a message in your chat channel and pin it so that it remains private, you do not get undesired content, and contributors can still have access to it..-->\r\n\r\nOptionally, you can also include information about:\r\n\r\n- [ ] Number of participants required.\r\n- [ ] Twitter-sized summary of your project pitch.\r\n- [ ] Provide an image of your project for the Brainhack Global 2020 website. \r\n<!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->\r\n![carpentrylogo](https://user-images.githubusercontent.com/45263281/100687417-2f71a080-3378-11eb-8958-f83080706a0f.png)\r\n\r\n\r\n\r\nWe would like to think about how you will credit and onboard new members to your project. If you\u2019d like to share your thoughts with future project participants, you can include information about:\r\n\r\n- [ ] Specify how you will acknowledge contributions (e.g. listing members on a contributing page).\r\n- [ ] Provide links to onboarding documents if you have some:\r\n"
