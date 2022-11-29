@@ -6,9 +6,14 @@
   "link_to_issue": "https://github.com/brainhackorg/global2020/issues/81",
   "labels": [
     {
-      "name": "git_skills:0_none",
+      "name": "project",
       "description": "",
-      "color": "bfdadc"
+      "color": "f9bc70"
+    },
+    {
+      "name": "status:published",
+      "description": "",
+      "color": "0e8a16"
     },
     {
       "name": "programming:none",
@@ -16,9 +21,14 @@
       "color": "5319e7"
     },
     {
-      "name": "project",
+      "name": "project_tools_skills:none",
       "description": "",
-      "color": "f9bc70"
+      "color": "c2e0c6"
+    },
+    {
+      "name": "git_skills:0_none",
+      "description": "",
+      "color": "bfdadc"
     },
     {
       "name": "project_development_status:0_concept_no_content",
@@ -26,14 +36,9 @@
       "color": "bfd4f2"
     },
     {
-      "name": "project_tools_skills:none",
+      "name": "bhg:ankara_tur_1",
       "description": "",
-      "color": "c2e0c6"
-    },
-    {
-      "name": "status:published",
-      "description": "",
-      "color": "0e8a16"
+      "color": "d4c5f9"
     }
   ],
   "content": "## Project info\r\n\r\n**Title:**\r\nTowards the Queer Neuroscience&STEM\r\n\r\n**Project lead:**\r\nDevin \u00d6zba\u011fc\u0131,  Twitter:@d_ozbagci, Mattermost: @devin_oz\r\n<!-- Add full name (and Twitter and Mattermost handle if possible) of the contact person. -->\r\n\r\n**Project collaborators:**\r\nMelvin Selim Atay, Twitter: i_am_mel_dev, Mattermost: selimatay,\r\nEzgi Y\u0131lmaz, Twitter: @rhizomic,\r\nUnikuir Association, Twitter: @unikuir\r\n\r\n**Registered Brainhack Global 2020 Event:**\r\nBrainhack Ankara: \"Hello World!\"\r\n\r\n**Project Description:**\r\nTowards the Queer Neuroscience & STEM is a project inspired by Queer Theory and Being Queer in Academia Unconference at Brainhack Global 2020, Ankara chapter, in collaboration with the panelists we established the idea of creating awareness on queer theory and how it can lead inclusion in increasingly diverse settings such as virtual online conferences and or events. We aim to provide a general guideline of diversity and inclusion in collaboration with researchers from various range of disciplines, especially social scientists to gain insights from their practices based on queer theory. Technical research disciplines generally STEM and eventually Neuroscience  has more tendency to keep the norms western society  as matter of facts. Increased and normalized hierarchical structures are one of them and  this needs to change in a way that could be inclusive to everyone, everywhere. To this end we strongly believe that  trans-disciplinary collaborations  are necessary and only by such encounters it would be possible to  provide an open, reachable, accessible basic practices and or guidelines for more inclusive settings. In short we want to curate resources of queer theory in collaboration with the researchers who are working in this field and make a website of these resources which could be used as a reference for the researchers in STEM & Neuroscience fields. By this project we also aim to connect social sciences disciplines and STEM in a way that they could feed each other and produce benefit to society.\r\n\r\n**Data to use:**\r\nNone\r\n**Link to project repository/sources:**\r\n[Towards Queer Neuroscience and STEM](https://github.com/brainhack-ankara/Towards-Queer-Neuroscience-and-STEM)\r\n\r\n**Goals for Brainhack Global 2020:**\r\nBrainhack going virtual on all locations is a queer act of thinning the norm called \"borders\". This is the main inspiration of the project. And the goal is to provide a trans-disciplinary guideline for inclusive events (especially in STEM & Neuroscience) with the purpose of as diverse and accessible as possible. Using queer theory as a source of inspiration to gain insights for more inclusive practices and provide a growing trans-disciplinary guideline for the events, occasions, institutions that aims to be less hierarchical. We want to curate these resources in the form of a simple yet accessible website. \r\n\r\n\r\n**Good first issues:**\r\n\r\n1. Documentation\r\n2. Git commands learning and testing\r\n3. Collaboration\r\n\r\n**Skills:**\r\nDocumentation, communication, community building\r\n\r\n\r\n**Tools/Software/Methods to Use:**\r\nNone, git\r\n\r\n<!--**Communication channels:**\r\n[Towards the Queer Neuroscience & Stem](https://mattermost.brainhack.org/brainhack/channels/towards-the-queer-neurosciencestem)-->\r\n\r\n\r\n[x ] Video channel: Jitsi on mattermost discription\r\n\r\n**Project labels**\r\n\r\n\r\n```\r\nqueer theory:\r\nqueer, LGBTQ2IA+, transgender\r\nInclusion:\r\nequitiy, diversity\r\nSTEM:\r\nScience, neuroscience, technology, engineering, mathematics, artificial intelligence,\r\n```\r\nI'm going to hashtag all of the labels I need my project to be indexed in:\r\n```\r\nqueer theory:\r\nqueer, #LGBTQ2IA+, #transgender\r\nInclusion:\r\n#equitiy, #diversity\r\nSTEM:\r\n#science, #neuroscience, #technology, #engineering, #mathematics, #artificial intelligence\r\n```\r\n**Project labels**\r\n- Type of project:\r\ndocumentation\r\n\r\n- Project development status:\r\n#0_concept_no_content, \r\n\r\n- Topic of the project:\r\nTowards the Queer Neuroscience&STEM \r\n\r\n- Tools used in the project:\r\nnone\r\n\r\n- Tools skill level required to enter the project (more than one possible):\r\n #no_skills_required\r\n\r\n- Programming language used in the project:\r\n#no_programming_involved,\r\n\r\n- Modalities involved in the project (if any):\r\nnone\r\n\r\n- Git skills reuired to enter the project (more than one possible):\r\n#0_no_git_skills, 1_commit_push\r\n\r\n- [x] I added all of the labels I want an associate to my project\r\n\r\n## Project Submission\r\n\r\n### Submission checklist\r\n\r\n*Once the issue is submitted, please check items in this list as you add under \u2018Additional project info\u2019*\r\n\r\n- [x] Link to your project: could be a code repository, a shared document, etc.\r\n- [x] Goals for Brainhack Global 2020: Brainhack going virtual on all locations is a queer act of thinning the norm called border, this is the main inspiration of this project. And the goal is to provide a trans-disciplinary guideline for inclusive events (especially in STEM & Neuroscience) with the purpose of as diverse and accessible as possible.\r\n- [x] Flesh out at least 2 \u201cgood first issues\u201d: those are tasks that do not require any prior knowledge about your project, could be defined as issues in a GitHub repository, or in a shared document.\r\n- [x] Skills: list skills that would be particularly suitable for your project. Documentation, Interest on Cross-Disciplinary Collaboration, Simple Website Design\r\n- [x]  [Brainhack space on Mattermost](https://mattermost.brainhack.org/brainhack/channels/towards-the-queer-neurosciencestem).\r\n [x] Video channel:  Jitsi available link on mattermost.\r\n\r\nOptionally, you can also include information about:\r\n\r\n- [ ] Number of participants required.\r\n- [x] Brainhack Global in this virtual setting is a queer act itself. We want to enhance the inspirations from queer theory using a trans-disciplinary approach for more inclusive practices in generally STEM but especially in Neuroscience.\r\n- [x] Provide an image of your project for the Brainhack Global 2020 website. ![QueerNeuroLogo](https://raw.githubusercontent.com/brainhack-ankara/Towards-Queer-Neuroscience-and-STEM/main/QueerNeuro.png)\r\n\r\n- [x] If you contribute this project you would be listed as one of the contributors at our website. (\r\n- [ -] Provide links to onboarding documents if you have some:\r\n"

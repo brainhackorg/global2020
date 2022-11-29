@@ -6,14 +6,14 @@
   "link_to_issue": "https://github.com/brainhackorg/global2020/issues/80",
   "labels": [
     {
-      "name": "bhg:ankara_tur_1",
+      "name": "project",
       "description": "",
-      "color": "d4c5f9"
+      "color": "f9bc70"
     },
     {
-      "name": "git_skills:0_none",
+      "name": "status:published",
       "description": "",
-      "color": "bfdadc"
+      "color": "0e8a16"
     },
     {
       "name": "programming:documentation",
@@ -21,19 +21,14 @@
       "color": "5319e7"
     },
     {
-      "name": "project",
-      "description": "",
-      "color": "f9bc70"
-    },
-    {
-      "name": "project_development_status:0_concept_no_content",
-      "description": "",
-      "color": "bfd4f2"
-    },
-    {
       "name": "project_tools_skills:none",
       "description": "",
       "color": "c2e0c6"
+    },
+    {
+      "name": "git_skills:0_none",
+      "description": "",
+      "color": "bfdadc"
     },
     {
       "name": "project_type:documentation",
@@ -41,9 +36,14 @@
       "color": "c5def5"
     },
     {
-      "name": "status:published",
+      "name": "project_development_status:0_concept_no_content",
       "description": "",
-      "color": "0e8a16"
+      "color": "bfd4f2"
+    },
+    {
+      "name": "bhg:ankara_tur_1",
+      "description": "",
+      "color": "d4c5f9"
     }
   ],
   "content": "<!-- Guidelines\r\n\r\nWe are very excited to meet you at Brainhack Global 2020 \ud83c\udf89. To submit a project, you need to be an attendee to one of the Brainhack Global 2020 events listed on the [Brainhack Global 2020 webpage](https://brainhack.org/global2020/events/). Please, register for the event that is most suitable to your location, time zone, interest, and/or project prior to submitting one. Thank you!\r\n\r\nWe have prepared a checklist to help with your project submission. Here is how to proceed:\r\n\r\nBefore filling in any part please check items in the checklist below as you go through them.\r\nOnce you are done (at least all 'required' items must be provided), please delete the \"Guidelines\" section, submit your issue and add a comment saying 'Hi @Brainhack-Global/project-monitors: my project is ready!'\r\nThank you!\r\n\r\nAfter the issue is submitted, we will assign a 'project monitor' from the event location that you are registered with to review your submission. Once the submission is approved by the 'project monitor', they will add the label 'Project is ready' and it will appear on [Brainhack Global 2020 Projects](https://brainhack.org/global2020/projects) page with a separate project dedicated webpage. \r\n\r\nNote that you can always update your issue which will also change your page on the website accordingly.\r\n\r\nIf at any time you need help from us or anything is unclear, please add a comment and ping your project monitor. Our team is here to help! -->\r\n\r\n## Project info\r\n\r\n**Title:**\r\nTR_OPEN \"getting started\", Introducing Open Ethical Commitee Permissions as a first early step of open science\r\n\r\n**Project lead:**\r\nMaria Geraldine Veldhuizen, Twitter: @margaveldhuizen Mattermost: @maria_veldhuizen \r\n\r\n**Project collaborators:**\r\n Melvin Selim Atay, Twitter: @i_am_mel_dev , Mattermost: selimatay \r\n\r\n**Registered Brainhack Global 2020 Event:**\r\nBrainhack Ankara, \"Hello world!\"\r\n\r\n**Project Description:**\r\nBrainhack Ankara Project For Introducing Open Ethical Committee Permissions as an introductory step of open science. Goal is to create a resource for early career researchers in Turkey to start public sharing data. We would be compiling examples for applications to ethical committees, examples of language in informed consent, list of universities and ethical committees that have approved public data sharing, resources and links to relevant regulations.\r\nTo start we are going to learn and brainstorm with the experts in the field of data  privacy and sharing. \r\nWe know that [Open Brain Consent](https://open-brain-consent.readthedocs.io/en/stable/) has done tremendous job on opening up the practices for data collection for ethical committees. There is  a Turkish Translation available for [data user agreement](https://github.com/con/open-brain-consent/blob/a8070f4d09134b1a130d80269e13007f154e1a1b/docs/source/gdpr/i18n/data_user_agreement.tr.rst) and [ultimate GDPR](https://github.com/con/open-brain-consent/blob/a8070f4d09134b1a130d80269e13007f154e1a1b/docs/source/gdpr/i18n/ultimate_gdpr.tr.rst) which would be useful to anyone who needs them. Establishing applicable practices providing local resources forming a consensus on language, style necessary tools and  establishing the routes are also necessary for applicable solutions. That is why we are opening this project as a first local step for open science.\r\n\r\n\r\n**Data to use:**\r\nWe would be compiling the local resources and example procedures which would lead more open data collection procedures locally.\r\n\r\n**Link to project repository/sources:**\r\nhttps://github.com/brainhack-ankara/TR-OPEN_getting-started\r\n\r\n**Goals for Brainhack Global 2020:**\r\nProvide a simple website with an understandable basic concepts. This goal may or may not meet within the time range of Brainhack Global but that is the ultimate goal of the project.\r\n\r\n**Good first issues:**\r\n<!-- Add a list of tasks to help new contributors find easy gateways into open source projects. -->\r\n\r\n1. You can join us as translators, preferably [EN/TR-TR/EN].\r\n2. You can share your schools / institutions / work places ethical committee examples and we can brainstorm together how to provide a way for open data collection practices.\r\n\r\n**Skills:**\r\nReading, writing and translating in Turkish. \r\nWe are also open to anyone who wants to experiment on git and simple website making\r\n<!-- Add a list of skills needed to contribute to this project. Try to think of both coding and non-coding skills. You can provide predefined skill levels, but it\u2019s better if you give concrete examples of the type of task contributors will be facing. Please make sure you create equal opportunities to accommodate the newcomers in your project to learn from each other and share the experiences. -->\r\n\r\n**Tools/Software/Methods to Use:**\r\nWe would be using git, and .md documents and probably would be in need  providing of nice visuals of tabular data for the future which may be used to support the claims of the researcher who may need ethical committee approval.\r\n\r\n<!-- Add a list of tools/software/methods that are advised to be installed/reviewed ahead of the event to gain a bit of time with the installation of the software, preparation of the environments or describing the methods that will be needed to contribute to this project. Try to think of both coding and non-coding details regarding such to be listed. -->\r\n\r\n**Communication channels:**\r\n\r\n [TR-Open \"getting started\" mattermost channel ](https://mattermost.brainhack.org/brainhack/channels/tr-open-getting-started)\r\n\r\n\r\nVideo channel: Our jistsi info is at  the mattermost \r\n\r\n**Project labels**\r\n\r\n```\r\nguideline development:\r\nethical committee, etik kurul, documentation, brainstorming, community building, bhg:ankara\r\n```\r\nI'm going to hashtag all of the labels I need my project to be indexed in:\r\n```\r\nguideline development:\r\n#ethicalcommittee, #etikkurul, #documentation, #brainstorming, #community building\r\n\r\n```\r\n\r\n**Project labels**\r\n- Type of project:\r\ndocumentation\r\n\r\n- Project development status:\r\n#0_concept_no_content, \r\n\r\n- Topic of the project:\r\nIntroducing Open Ethical Committee Permissions as an early first step of open science\r\n\r\n- Tools used in the project:\r\nGit\r\n\r\n- Tools skill level required to enter the project (more than one possible):\r\n #no_skills_required\r\n\r\n- Programming language used in the project:\r\nno_programming_involved,\r\n\r\n- Modalities involved in the project (if any):\r\nnone\r\n- Git skills reuired to enter the project (more than one possible):\r\n#0_no_git_skills, 1_commit_push, 2_branches_PRs\r\n\r\n- [ x] I added all of the labels I want an associate to my project\r\n\r\n## Project Submission\r\n\r\n### Submission checklist\r\n\r\n*Once the issue is submitted, please check items in this list as you add under \u2018Additional project info\u2019*\r\n\r\n- [x] Link to your project: could be a code repository, a shared document, etc.\r\n- [x] Goals for Brainhack Global 2020: describe what you want to achieve during this brainhack.\r\n- [x] Flesh out at least 2 \u201cgood first issues\u201d: those are tasks that do not require any prior knowledge about your project, could be defined as issues in a GitHub repository, or in a shared document.\r\n- [x] Skills: list skills that would be particularly suitable for your project. We ask you to include at least one non-coding skill. Use the issue labels for this purpose.\r\n[x] Chat channel: [TR-Open \"getting started\" mattermost channel ](https://mattermost.brainhack.org/brainhack/channels/tr-open-getting-started)\r\n [x] Video channel: We have a jitsi room available info is at our mattermost channel\r\n\r\nOptionally, you can also include information about:\r\n\r\n- [ ] Number of participants required.\r\n- [x] We want to introduce and compile standard templates to be used as an example for early career researchers who wants to start to collect open data and needs reliable resources for ethical committee applications in Turkey.\r\n- [ x] Provide an image of your project for the Brainhack Global 2020 website. ![TR_Open_logo](https://raw.githubusercontent.com/brainhack-ankara/TR-OPEN_getting-started/main/Tr-Open-logo.jpg)\r\n<!-- You can put an image anywhere in this issue and it will be used to build your project page on the website. -->\r\n\r\n\r\n- [x] By helping us you would be a  contributor and your contributions would be shown at our website. listing members on a contributing page.\r\n- [ -] Provide links to onboarding documents if you have some: None\r\n"
